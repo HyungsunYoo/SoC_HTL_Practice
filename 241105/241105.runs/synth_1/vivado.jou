@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov  5 17:35:40 2024
+# Process ID: 12964
+# Current directory: C:/Users/gudtj/soc_241031_new/soc_241031_new.runs/synth_1
+# Command line: vivado.exe -log counter15.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source counter15.tcl
+# Log file: C:/Users/gudtj/soc_241031_new/soc_241031_new.runs/synth_1/counter15.vds
+# Journal file: C:/Users/gudtj/soc_241031_new/soc_241031_new.runs/synth_1\vivado.jou
+# Running On: HyungsunYoo, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 68342 MB
+#-----------------------------------------------------------
+source counter15.tcl -notrace
