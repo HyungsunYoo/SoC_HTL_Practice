@@ -1,0 +1,275 @@
+
+
+================================================================
+== Vitis HLS Report for 'run_PE'
+================================================================
+* Date:           Tue Nov 12 11:52:52 2024
+
+* Version:        2022.1 (Build 3526262 on Mon Apr 18 15:48:16 MDT 2022)
+* Project:        dataflow
+* Solution:       solution1 (Vitis Kernel Flow Target)
+* Product family: zynquplus
+* Target device:  xczu3eg-sbva484-1-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  4.239 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       28|       28|  0.280 us|  0.280 us|   28|   28|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_55_1   |       12|       12|         6|          -|          -|     2|        no|
+        | + VITIS_LOOP_57_2  |        4|        4|         2|          -|          -|     2|        no|
+        |- VITIS_LOOP_65_3   |       14|       14|         7|          -|          -|     2|        no|
+        | + VITIS_LOOP_68_4  |        4|        4|         2|          -|          -|     2|        no|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 8
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 5 
+3 --> 4 2 
+4 --> 3 
+5 --> 6 
+6 --> 7 8 
+7 --> 6 
+8 --> 5 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 2.16>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%ki = alloca i32 1"   --->   Operation 9 'alloca' 'ki' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (2.16ns)   --->   "%p_read_1 = read i2 @_ssdm_op_Read.ap_auto.i2, i2 %p_read"   --->   Operation 10 'read' 'p_read_1' <Predicate = true> <Delay = 2.16> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 2.16> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%output_reg = alloca i64 1" [dataflow_ex_5.cpp:34->dataflow_ex_5.cpp:125]   --->   Operation 11 'alloca' 'output_reg' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4> <RAM>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%output_temp_0 = alloca i64 1" [dataflow_ex_5.cpp:35->dataflow_ex_5.cpp:125]   --->   Operation 12 'alloca' 'output_temp_0' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 2> <RAM>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%specstablecontent_ln0 = specstablecontent void @_ssdm_op_SpecStableContent, i32 %output_buf5, void "   --->   Operation 13 'specstablecontent' 'specstablecontent_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%specstablecontent_ln0 = specstablecontent void @_ssdm_op_SpecStableContent, i8 %weight_buf3, void "   --->   Operation 14 'specstablecontent' 'specstablecontent_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%specstablecontent_ln0 = specstablecontent void @_ssdm_op_SpecStableContent, i8 %weight_buf_14, void "   --->   Operation 15 'specstablecontent' 'specstablecontent_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%specstablecontent_ln0 = specstablecontent void @_ssdm_op_SpecStableContent, i8 %input_buf1, void "   --->   Operation 16 'specstablecontent' 'specstablecontent_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%specstablecontent_ln0 = specstablecontent void @_ssdm_op_SpecStableContent, i8 %input_buf_12, void "   --->   Operation 17 'specstablecontent' 'specstablecontent_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%tmp = bitconcatenate i3 @_ssdm_op_BitConcatenate.i3.i2.i1, i2 %p_read_1, i1 0" [dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125]   --->   Operation 18 'bitconcatenate' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.48ns)   --->   "%store_ln55 = store i2 0, i2 %ki" [dataflow_ex_5.cpp:55->dataflow_ex_5.cpp:125]   --->   Operation 19 'store' 'store_ln55' <Predicate = true> <Delay = 0.48>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%br_ln55 = br void %VITIS_LOOP_57_2.i" [dataflow_ex_5.cpp:55->dataflow_ex_5.cpp:125]   --->   Operation 20 'br' 'br_ln55' <Predicate = true> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 1.00>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "%ki_3 = load i2 %ki" [dataflow_ex_5.cpp:61->dataflow_ex_5.cpp:125]   --->   Operation 21 'load' 'ki_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%shl_ln61 = shl i2 %ki_3, i2 1" [dataflow_ex_5.cpp:61->dataflow_ex_5.cpp:125]   --->   Operation 22 'shl' 'shl_ln61' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.51ns)   --->   "%icmp_ln55 = icmp_eq  i2 %ki_3, i2 2" [dataflow_ex_5.cpp:55->dataflow_ex_5.cpp:125]   --->   Operation 23 'icmp' 'icmp_ln55' <Predicate = true> <Delay = 0.51> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.51> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 2, i64 2, i64 2"   --->   Operation 24 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 25 [1/1] (0.62ns)   --->   "%add_ln55 = add i2 %ki_3, i2 1" [dataflow_ex_5.cpp:55->dataflow_ex_5.cpp:125]   --->   Operation 25 'add' 'add_ln55' <Predicate = true> <Delay = 0.62> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.62> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%br_ln55 = br i1 %icmp_ln55, void %VITIS_LOOP_57_2.split.i, void %VITIS_LOOP_68_4.i.preheader" [dataflow_ex_5.cpp:55->dataflow_ex_5.cpp:125]   --->   Operation 26 'br' 'br_ln55' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 27 [1/1] (0.00ns)   --->   "%specloopname_ln55 = specloopname void @_ssdm_op_SpecLoopName, void @empty_18" [dataflow_ex_5.cpp:55->dataflow_ex_5.cpp:125]   --->   Operation 27 'specloopname' 'specloopname_ln55' <Predicate = (!icmp_ln55)> <Delay = 0.00>
+ST_2 : Operation 28 [1/1] (0.48ns)   --->   "%br_ln57 = br void %for.inc.i" [dataflow_ex_5.cpp:57->dataflow_ex_5.cpp:125]   --->   Operation 28 'br' 'br_ln57' <Predicate = (!icmp_ln55)> <Delay = 0.48>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%ki_1 = alloca i32 1"   --->   Operation 29 'alloca' 'ki_1' <Predicate = (icmp_ln55)> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (0.48ns)   --->   "%store_ln65 = store i2 0, i2 %ki_1" [dataflow_ex_5.cpp:65->dataflow_ex_5.cpp:125]   --->   Operation 30 'store' 'store_ln65' <Predicate = (icmp_ln55)> <Delay = 0.48>
+ST_2 : Operation 31 [1/1] (0.00ns)   --->   "%br_ln65 = br void %VITIS_LOOP_68_4.i" [dataflow_ex_5.cpp:65->dataflow_ex_5.cpp:125]   --->   Operation 31 'br' 'br_ln65' <Predicate = (icmp_ln55)> <Delay = 0.00>
+
+State 3 <SV = 2> <Delay = 1.53>
+ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%ci = phi i2 %add_ln57, void %for.inc.split.i, i2 0, void %VITIS_LOOP_57_2.split.i" [dataflow_ex_5.cpp:57->dataflow_ex_5.cpp:125]   --->   Operation 32 'phi' 'ci' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 33 [1/1] (0.00ns)   --->   "%zext_ln59 = zext i2 %ci" [dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125]   --->   Operation 33 'zext' 'zext_ln59' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 34 [1/1] (0.74ns)   --->   "%add_ln59 = add i3 %tmp, i3 %zext_ln59" [dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125]   --->   Operation 34 'add' 'add_ln59' <Predicate = true> <Delay = 0.74> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%zext_ln59_1 = zext i3 %add_ln59" [dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125]   --->   Operation 35 'zext' 'zext_ln59_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 36 [1/1] (0.00ns)   --->   "%input_buf1_addr = getelementptr i8 %input_buf1, i64 0, i64 %zext_ln59_1" [dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125]   --->   Operation 36 'getelementptr' 'input_buf1_addr' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 37 [1/1] (0.00ns)   --->   "%input_buf_12_addr = getelementptr i8 %input_buf_12, i64 0, i64 %zext_ln59_1" [dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125]   --->   Operation 37 'getelementptr' 'input_buf_12_addr' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 38 [1/1] (0.00ns)   --->   "%weight_buf3_addr = getelementptr i8 %weight_buf3, i64 0, i64 %zext_ln59_1" [dataflow_ex_5.cpp:60->dataflow_ex_5.cpp:125]   --->   Operation 38 'getelementptr' 'weight_buf3_addr' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 39 [1/1] (0.00ns)   --->   "%weight_buf_14_addr = getelementptr i8 %weight_buf_14, i64 0, i64 %zext_ln59_1" [dataflow_ex_5.cpp:60->dataflow_ex_5.cpp:125]   --->   Operation 39 'getelementptr' 'weight_buf_14_addr' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 40 [1/1] (0.62ns)   --->   "%add_ln61 = add i2 %shl_ln61, i2 %ci" [dataflow_ex_5.cpp:61->dataflow_ex_5.cpp:125]   --->   Operation 40 'add' 'add_ln61' <Predicate = true> <Delay = 0.62> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.62> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 41 [1/1] (0.00ns)   --->   "%zext_ln61 = zext i2 %add_ln61" [dataflow_ex_5.cpp:61->dataflow_ex_5.cpp:125]   --->   Operation 41 'zext' 'zext_ln61' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 42 [1/1] (0.00ns)   --->   "%output_reg_addr = getelementptr i16 %output_reg, i64 0, i64 %zext_ln61" [dataflow_ex_5.cpp:61->dataflow_ex_5.cpp:125]   --->   Operation 42 'getelementptr' 'output_reg_addr' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 43 [1/1] (0.51ns)   --->   "%icmp_ln57 = icmp_eq  i2 %ci, i2 2" [dataflow_ex_5.cpp:57->dataflow_ex_5.cpp:125]   --->   Operation 43 'icmp' 'icmp_ln57' <Predicate = true> <Delay = 0.51> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.51> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 44 [1/1] (0.00ns)   --->   "%empty_33 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 2, i64 2, i64 2"   --->   Operation 44 'speclooptripcount' 'empty_33' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 45 [1/1] (0.62ns)   --->   "%add_ln57 = add i2 %ci, i2 1" [dataflow_ex_5.cpp:57->dataflow_ex_5.cpp:125]   --->   Operation 45 'add' 'add_ln57' <Predicate = true> <Delay = 0.62> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.62> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 46 [1/1] (0.00ns)   --->   "%br_ln57 = br i1 %icmp_ln57, void %for.inc.split.i, void %for.inc20.i" [dataflow_ex_5.cpp:57->dataflow_ex_5.cpp:125]   --->   Operation 46 'br' 'br_ln57' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 47 [2/2] (0.79ns)   --->   "%input_buf1_load = load i3 %input_buf1_addr" [dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125]   --->   Operation 47 'load' 'input_buf1_load' <Predicate = (!icmp_ln57)> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 8> <RAM>
+ST_3 : Operation 48 [2/2] (0.79ns)   --->   "%input_buf_12_load = load i3 %input_buf_12_addr" [dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125]   --->   Operation 48 'load' 'input_buf_12_load' <Predicate = (!icmp_ln57)> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 8> <RAM>
+ST_3 : Operation 49 [2/2] (0.79ns)   --->   "%weight_buf3_load = load i3 %weight_buf3_addr" [dataflow_ex_5.cpp:60->dataflow_ex_5.cpp:125]   --->   Operation 49 'load' 'weight_buf3_load' <Predicate = (!icmp_ln57)> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 8> <RAM>
+ST_3 : Operation 50 [2/2] (0.79ns)   --->   "%weight_buf_14_load = load i3 %weight_buf_14_addr" [dataflow_ex_5.cpp:60->dataflow_ex_5.cpp:125]   --->   Operation 50 'load' 'weight_buf_14_load' <Predicate = (!icmp_ln57)> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 8> <RAM>
+ST_3 : Operation 51 [1/1] (0.48ns)   --->   "%store_ln55 = store i2 %add_ln55, i2 %ki" [dataflow_ex_5.cpp:55->dataflow_ex_5.cpp:125]   --->   Operation 51 'store' 'store_ln55' <Predicate = (icmp_ln57)> <Delay = 0.48>
+ST_3 : Operation 52 [1/1] (0.00ns)   --->   "%br_ln55 = br void %VITIS_LOOP_57_2.i" [dataflow_ex_5.cpp:55->dataflow_ex_5.cpp:125]   --->   Operation 52 'br' 'br_ln55' <Predicate = (icmp_ln57)> <Delay = 0.00>
+
+State 4 <SV = 3> <Delay = 4.23>
+ST_4 : Operation 53 [1/1] (0.00ns)   --->   "%specloopname_ln57 = specloopname void @_ssdm_op_SpecLoopName, void @empty_17" [dataflow_ex_5.cpp:57->dataflow_ex_5.cpp:125]   --->   Operation 53 'specloopname' 'specloopname_ln57' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 54 [1/2] (0.79ns)   --->   "%input_buf1_load = load i3 %input_buf1_addr" [dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125]   --->   Operation 54 'load' 'input_buf1_load' <Predicate = true> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 8> <RAM>
+ST_4 : Operation 55 [1/2] (0.79ns)   --->   "%input_buf_12_load = load i3 %input_buf_12_addr" [dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125]   --->   Operation 55 'load' 'input_buf_12_load' <Predicate = true> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 8> <RAM>
+ST_4 : Operation 56 [1/1] (0.48ns)   --->   "%data = mux i8 @_ssdm_op_Mux.ap_auto.2i8.i2, i8 %input_buf1_load, i8 %input_buf_12_load, i2 %ki_3" [dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125]   --->   Operation 56 'mux' 'data' <Predicate = true> <Delay = 0.48> <CoreInst = "Multiplexer">   --->   Core 76 'Multiplexer' <Latency = 0> <II = 1> <Delay = 0.48> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 57 [1/1] (0.00ns)   --->   "%sext_ln32 = sext i8 %data" [dataflow_ex_5.cpp:32->dataflow_ex_5.cpp:125]   --->   Operation 57 'sext' 'sext_ln32' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 58 [1/2] (0.79ns)   --->   "%weight_buf3_load = load i3 %weight_buf3_addr" [dataflow_ex_5.cpp:60->dataflow_ex_5.cpp:125]   --->   Operation 58 'load' 'weight_buf3_load' <Predicate = true> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 8> <RAM>
+ST_4 : Operation 59 [1/2] (0.79ns)   --->   "%weight_buf_14_load = load i3 %weight_buf_14_addr" [dataflow_ex_5.cpp:60->dataflow_ex_5.cpp:125]   --->   Operation 59 'load' 'weight_buf_14_load' <Predicate = true> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 8> <Depth = 8> <RAM>
+ST_4 : Operation 60 [1/1] (0.48ns)   --->   "%weight = mux i8 @_ssdm_op_Mux.ap_auto.2i8.i2, i8 %weight_buf3_load, i8 %weight_buf_14_load, i2 %ki_3" [dataflow_ex_5.cpp:60->dataflow_ex_5.cpp:125]   --->   Operation 60 'mux' 'weight' <Predicate = true> <Delay = 0.48> <CoreInst = "Multiplexer">   --->   Core 76 'Multiplexer' <Latency = 0> <II = 1> <Delay = 0.48> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 61 [1/1] (0.00ns)   --->   "%sext_ln33 = sext i8 %weight" [dataflow_ex_5.cpp:33->dataflow_ex_5.cpp:125]   --->   Operation 61 'sext' 'sext_ln33' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 62 [1/1] (2.17ns)   --->   "%mul_ln61 = mul i16 %sext_ln33, i16 %sext_ln32" [dataflow_ex_5.cpp:61->dataflow_ex_5.cpp:125]   --->   Operation 62 'mul' 'mul_ln61' <Predicate = true> <Delay = 2.17> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 2.17> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 63 [1/1] (0.79ns)   --->   "%store_ln61 = store i16 %mul_ln61, i2 %output_reg_addr" [dataflow_ex_5.cpp:61->dataflow_ex_5.cpp:125]   --->   Operation 63 'store' 'store_ln61' <Predicate = true> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4> <RAM>
+ST_4 : Operation 64 [1/1] (0.00ns)   --->   "%br_ln57 = br void %for.inc.i" [dataflow_ex_5.cpp:57->dataflow_ex_5.cpp:125]   --->   Operation 64 'br' 'br_ln57' <Predicate = true> <Delay = 0.00>
+
+State 5 <SV = 2> <Delay = 0.62>
+ST_5 : Operation 65 [1/1] (0.00ns)   --->   "%ki_4 = load i2 %ki_1" [dataflow_ex_5.cpp:77->dataflow_ex_5.cpp:125]   --->   Operation 65 'load' 'ki_4' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 66 [1/1] (0.00ns)   --->   "%zext_ln65 = zext i2 %ki_4" [dataflow_ex_5.cpp:65->dataflow_ex_5.cpp:125]   --->   Operation 66 'zext' 'zext_ln65' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 67 [1/1] (0.00ns)   --->   "%shl_ln77 = shl i2 %ki_4, i2 1" [dataflow_ex_5.cpp:77->dataflow_ex_5.cpp:125]   --->   Operation 67 'shl' 'shl_ln77' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 68 [1/1] (0.00ns)   --->   "%zext_ln77 = zext i2 %shl_ln77" [dataflow_ex_5.cpp:77->dataflow_ex_5.cpp:125]   --->   Operation 68 'zext' 'zext_ln77' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 69 [1/1] (0.00ns)   --->   "%output_buf5_addr = getelementptr i32 %output_buf5, i64 0, i64 %zext_ln77" [dataflow_ex_5.cpp:77->dataflow_ex_5.cpp:125]   --->   Operation 69 'getelementptr' 'output_buf5_addr' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 70 [1/1] (0.51ns)   --->   "%icmp_ln65 = icmp_eq  i2 %ki_4, i2 2" [dataflow_ex_5.cpp:65->dataflow_ex_5.cpp:125]   --->   Operation 70 'icmp' 'icmp_ln65' <Predicate = true> <Delay = 0.51> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.51> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 71 [1/1] (0.00ns)   --->   "%empty_34 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 2, i64 2, i64 2"   --->   Operation 71 'speclooptripcount' 'empty_34' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 72 [1/1] (0.62ns)   --->   "%add_ln65 = add i2 %ki_4, i2 1" [dataflow_ex_5.cpp:65->dataflow_ex_5.cpp:125]   --->   Operation 72 'add' 'add_ln65' <Predicate = true> <Delay = 0.62> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.62> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 73 [1/1] (0.00ns)   --->   "%br_ln65 = br i1 %icmp_ln65, void %VITIS_LOOP_68_4.split.i, void %run_PE.exit" [dataflow_ex_5.cpp:65->dataflow_ex_5.cpp:125]   --->   Operation 73 'br' 'br_ln65' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 74 [1/1] (0.00ns)   --->   "%specloopname_ln67 = specloopname void @_ssdm_op_SpecLoopName, void @empty_16" [dataflow_ex_5.cpp:67->dataflow_ex_5.cpp:125]   --->   Operation 74 'specloopname' 'specloopname_ln67' <Predicate = (!icmp_ln65)> <Delay = 0.00>
+ST_5 : Operation 75 [1/1] (0.48ns)   --->   "%br_ln68 = br void %for.inc37.i" [dataflow_ex_5.cpp:68->dataflow_ex_5.cpp:125]   --->   Operation 75 'br' 'br_ln68' <Predicate = (!icmp_ln65)> <Delay = 0.48>
+ST_5 : Operation 76 [1/1] (0.00ns)   --->   "%ret_ln125 = ret" [dataflow_ex_5.cpp:125]   --->   Operation 76 'ret' 'ret_ln125' <Predicate = (icmp_ln65)> <Delay = 0.00>
+
+State 6 <SV = 3> <Delay = 1.41>
+ST_6 : Operation 77 [1/1] (0.00ns)   --->   "%ci_1 = phi i2 %add_ln68, void %for.inc37.split.i, i2 0, void %VITIS_LOOP_68_4.split.i" [dataflow_ex_5.cpp:68->dataflow_ex_5.cpp:125]   --->   Operation 77 'phi' 'ci_1' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 78 [1/1] (0.00ns)   --->   "%sum = phi i17 %sum_1, void %for.inc37.split.i, i17 0, void %VITIS_LOOP_68_4.split.i"   --->   Operation 78 'phi' 'sum' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 79 [1/1] (0.62ns)   --->   "%add_ln70 = add i2 %shl_ln77, i2 %ci_1" [dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125]   --->   Operation 79 'add' 'add_ln70' <Predicate = true> <Delay = 0.62> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.62> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 80 [1/1] (0.00ns)   --->   "%zext_ln70 = zext i2 %add_ln70" [dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125]   --->   Operation 80 'zext' 'zext_ln70' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 81 [1/1] (0.00ns)   --->   "%output_reg_addr_1 = getelementptr i16 %output_reg, i64 0, i64 %zext_ln70" [dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125]   --->   Operation 81 'getelementptr' 'output_reg_addr_1' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 82 [1/1] (0.51ns)   --->   "%icmp_ln68 = icmp_eq  i2 %ci_1, i2 2" [dataflow_ex_5.cpp:68->dataflow_ex_5.cpp:125]   --->   Operation 82 'icmp' 'icmp_ln68' <Predicate = true> <Delay = 0.51> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.51> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 83 [1/1] (0.00ns)   --->   "%empty_35 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 2, i64 2, i64 2"   --->   Operation 83 'speclooptripcount' 'empty_35' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 84 [1/1] (0.62ns)   --->   "%add_ln68 = add i2 %ci_1, i2 1" [dataflow_ex_5.cpp:68->dataflow_ex_5.cpp:125]   --->   Operation 84 'add' 'add_ln68' <Predicate = true> <Delay = 0.62> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.62> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 85 [1/1] (0.00ns)   --->   "%br_ln68 = br i1 %icmp_ln68, void %for.inc37.split.i, void %for.inc53.i" [dataflow_ex_5.cpp:68->dataflow_ex_5.cpp:125]   --->   Operation 85 'br' 'br_ln68' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 86 [2/2] (0.79ns)   --->   "%output_reg_load = load i2 %output_reg_addr_1" [dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125]   --->   Operation 86 'load' 'output_reg_load' <Predicate = (!icmp_ln68)> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4> <RAM>
+ST_6 : Operation 87 [1/1] (0.00ns)   --->   "%output_temp_0_addr = getelementptr i32 %output_temp_0, i64 0, i64 %zext_ln65" [dataflow_ex_5.cpp:74->dataflow_ex_5.cpp:125]   --->   Operation 87 'getelementptr' 'output_temp_0_addr' <Predicate = (icmp_ln68)> <Delay = 0.00>
+ST_6 : Operation 88 [2/2] (0.79ns)   --->   "%temp = load i1 %output_temp_0_addr" [dataflow_ex_5.cpp:74->dataflow_ex_5.cpp:125]   --->   Operation 88 'load' 'temp' <Predicate = (icmp_ln68)> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 2> <RAM>
+ST_6 : Operation 89 [1/1] (0.48ns)   --->   "%store_ln65 = store i2 %add_ln65, i2 %ki_1" [dataflow_ex_5.cpp:65->dataflow_ex_5.cpp:125]   --->   Operation 89 'store' 'store_ln65' <Predicate = (icmp_ln68)> <Delay = 0.48>
+
+State 7 <SV = 4> <Delay = 1.81>
+ST_7 : Operation 90 [1/1] (0.00ns)   --->   "%specloopname_ln67 = specloopname void @_ssdm_op_SpecLoopName, void @empty_15" [dataflow_ex_5.cpp:67->dataflow_ex_5.cpp:125]   --->   Operation 90 'specloopname' 'specloopname_ln67' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 91 [1/2] (0.79ns)   --->   "%output_reg_load = load i2 %output_reg_addr_1" [dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125]   --->   Operation 91 'load' 'output_reg_load' <Predicate = true> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 16> <Depth = 4> <RAM>
+ST_7 : Operation 92 [1/1] (0.00ns)   --->   "%output_reg_load_cast1_i = sext i16 %output_reg_load" [dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125]   --->   Operation 92 'sext' 'output_reg_load_cast1_i' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 93 [1/1] (1.02ns)   --->   "%sum_1 = add i17 %output_reg_load_cast1_i, i17 %sum" [dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125]   --->   Operation 93 'add' 'sum_1' <Predicate = true> <Delay = 1.02> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 94 [1/1] (0.00ns)   --->   "%br_ln68 = br void %for.inc37.i" [dataflow_ex_5.cpp:68->dataflow_ex_5.cpp:125]   --->   Operation 94 'br' 'br_ln68' <Predicate = true> <Delay = 0.00>
+
+State 8 <SV = 4> <Delay = 2.78>
+ST_8 : Operation 95 [1/1] (0.00ns)   --->   "%sext_ln68 = sext i17 %sum" [dataflow_ex_5.cpp:68->dataflow_ex_5.cpp:125]   --->   Operation 95 'sext' 'sext_ln68' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 96 [1/2] (0.79ns)   --->   "%temp = load i1 %output_temp_0_addr" [dataflow_ex_5.cpp:74->dataflow_ex_5.cpp:125]   --->   Operation 96 'load' 'temp' <Predicate = true> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 2> <RAM>
+ST_8 : Operation 97 [1/1] (1.20ns)   --->   "%add_ln75 = add i32 %temp, i32 %sext_ln68" [dataflow_ex_5.cpp:75->dataflow_ex_5.cpp:125]   --->   Operation 97 'add' 'add_ln75' <Predicate = true> <Delay = 1.20> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.20> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 98 [1/1] (0.79ns)   --->   "%store_ln75 = store i32 %add_ln75, i1 %output_temp_0_addr" [dataflow_ex_5.cpp:75->dataflow_ex_5.cpp:125]   --->   Operation 98 'store' 'store_ln75' <Predicate = true> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 2> <RAM>
+ST_8 : Operation 99 [1/1] (0.79ns)   --->   "%store_ln77 = store i32 %add_ln75, i2 %output_buf5_addr" [dataflow_ex_5.cpp:77->dataflow_ex_5.cpp:125]   --->   Operation 99 'store' 'store_ln77' <Predicate = true> <Delay = 0.79> <CoreInst = "RAM">   --->   Core 83 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 4> <RAM>
+ST_8 : Operation 100 [1/1] (0.00ns)   --->   "%br_ln65 = br void %VITIS_LOOP_68_4.i" [dataflow_ex_5.cpp:65->dataflow_ex_5.cpp:125]   --->   Operation 100 'br' 'br_ln65' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 2.17ns
+The critical path consists of the following:
+	wire read operation ('p_read_1') on port 'p_read' [8]  (2.17 ns)
+
+ <State 2>: 1ns
+The critical path consists of the following:
+	'load' operation ('ki', dataflow_ex_5.cpp:61->dataflow_ex_5.cpp:125) on local variable 'ki' [20]  (0 ns)
+	'add' operation ('add_ln55', dataflow_ex_5.cpp:55->dataflow_ex_5.cpp:125) [24]  (0.625 ns)
+	blocking operation 0.376 ns on control path)
+
+ <State 3>: 1.54ns
+The critical path consists of the following:
+	'phi' operation ('ci', dataflow_ex_5.cpp:57->dataflow_ex_5.cpp:125) with incoming values : ('add_ln57', dataflow_ex_5.cpp:57->dataflow_ex_5.cpp:125) [30]  (0 ns)
+	'add' operation ('add_ln59', dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125) [32]  (0.746 ns)
+	'getelementptr' operation ('input_buf1_addr', dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125) [34]  (0 ns)
+	'load' operation ('input_buf1_load', dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125) on array 'input_buf1' [47]  (0.79 ns)
+
+ <State 4>: 4.24ns
+The critical path consists of the following:
+	'load' operation ('input_buf1_load', dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125) on array 'input_buf1' [47]  (0.79 ns)
+	'mux' operation ('data', dataflow_ex_5.cpp:59->dataflow_ex_5.cpp:125) [49]  (0.489 ns)
+	'mul' operation ('mul_ln61', dataflow_ex_5.cpp:61->dataflow_ex_5.cpp:125) [55]  (2.17 ns)
+	'store' operation ('store_ln61', dataflow_ex_5.cpp:61->dataflow_ex_5.cpp:125) of variable 'mul_ln61', dataflow_ex_5.cpp:61->dataflow_ex_5.cpp:125 on array 'output_reg', dataflow_ex_5.cpp:34->dataflow_ex_5.cpp:125 [56]  (0.79 ns)
+
+ <State 5>: 0.625ns
+The critical path consists of the following:
+	'load' operation ('ki', dataflow_ex_5.cpp:77->dataflow_ex_5.cpp:125) on local variable 'ki' [66]  (0 ns)
+	'add' operation ('add_ln65', dataflow_ex_5.cpp:65->dataflow_ex_5.cpp:125) [73]  (0.625 ns)
+
+ <State 6>: 1.42ns
+The critical path consists of the following:
+	'phi' operation ('ci', dataflow_ex_5.cpp:68->dataflow_ex_5.cpp:125) with incoming values : ('add_ln68', dataflow_ex_5.cpp:68->dataflow_ex_5.cpp:125) [79]  (0 ns)
+	'add' operation ('add_ln70', dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125) [81]  (0.625 ns)
+	'getelementptr' operation ('output_reg_addr_1', dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125) [83]  (0 ns)
+	'load' operation ('output_reg_load', dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125) on array 'output_reg', dataflow_ex_5.cpp:34->dataflow_ex_5.cpp:125 [90]  (0.79 ns)
+
+ <State 7>: 1.82ns
+The critical path consists of the following:
+	'load' operation ('output_reg_load', dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125) on array 'output_reg', dataflow_ex_5.cpp:34->dataflow_ex_5.cpp:125 [90]  (0.79 ns)
+	'add' operation ('sum', dataflow_ex_5.cpp:70->dataflow_ex_5.cpp:125) [92]  (1.03 ns)
+
+ <State 8>: 2.78ns
+The critical path consists of the following:
+	'load' operation ('temp', dataflow_ex_5.cpp:74->dataflow_ex_5.cpp:125) on array 'output_temp[0]', dataflow_ex_5.cpp:35->dataflow_ex_5.cpp:125 [97]  (0.79 ns)
+	'add' operation ('add_ln75', dataflow_ex_5.cpp:75->dataflow_ex_5.cpp:125) [98]  (1.2 ns)
+	'store' operation ('store_ln75', dataflow_ex_5.cpp:75->dataflow_ex_5.cpp:125) of variable 'add_ln75', dataflow_ex_5.cpp:75->dataflow_ex_5.cpp:125 on array 'output_temp[0]', dataflow_ex_5.cpp:35->dataflow_ex_5.cpp:125 [99]  (0.79 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

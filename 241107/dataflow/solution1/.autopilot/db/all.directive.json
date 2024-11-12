@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "dataflow",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "C:\/Users\/gudtj\/OneDrive\/Desktop\/24-2\/SoC\/HTL_Practice\/241107\/dataflow\/solution1\/csynth.tcl",
+          "sourceLine": "17",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "dataflow"
+              }]
+          }
+        }]
+    }]}

@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Nov 11 14:45:13 2024
+# Process ID: 24872
+# Current directory: C:/Users/gudtj/OneDrive/Desktop/SoC_HTL_Practice-master/SoC_HTL_Practice-master/241105
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31556 C:\Users\gudtj\OneDrive\Desktop\SoC_HTL_Practice-master\SoC_HTL_Practice-master\241105\241105.xpr
+# Log file: C:/Users/gudtj/OneDrive/Desktop/SoC_HTL_Practice-master/SoC_HTL_Practice-master/241105/vivado.log
+# Journal file: C:/Users/gudtj/OneDrive/Desktop/SoC_HTL_Practice-master/SoC_HTL_Practice-master/241105\vivado.jou
+# Running On: HyungsunYoo, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 68342 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gudtj/OneDrive/Desktop/SoC_HTL_Practice-master/SoC_HTL_Practice-master/241105/241105.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1

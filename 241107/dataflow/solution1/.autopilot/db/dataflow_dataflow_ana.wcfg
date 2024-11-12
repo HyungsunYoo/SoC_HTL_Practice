@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dataflow.wdb" id="1">
+         <top_modules>
+            <top_module name="apa_dataflow_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="HLS Process Summary Group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="/apatb_dataflow_top/AESL_inst_dataflow//AESL_inst_dataflow_activity">
+         <obj_property name="label">AESL_inst_dataflow_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_dataflow_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_dataflow_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow//AESL_inst_dataflow_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow//AESL_inst_dataflow_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow//AESL_inst_dataflow_activity.dataflowTxTooltipData</obj_property>
+         <wvobject type="group" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/dataflow_in_loop_VITIS_LOOP_112_1_U0_activity">
+            <obj_property name="label">dataflow_in_loop_VITIS_LOOP_112_1_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">dataflow_in_loop_VITIS_LOOP_112_1_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">dataflow_in_loop_VITIS_LOOP_112_1_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/dataflow_in_loop_VITIS_LOOP_112_1_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/dataflow_in_loop_VITIS_LOOP_112_1_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/dataflow_in_loop_VITIS_LOOP_112_1_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/entry_proc_U0_activity">
+               <obj_property name="label">entry_proc_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">entry_proc_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">entry_proc_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/entry_proc_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/entry_proc_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/entry_proc_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/readDram_U0_activity">
+               <obj_property name="label">readDram_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">readDram_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">readDram_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/readDram_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/readDram_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/readDram_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weightDram_U0_activity">
+               <obj_property name="label">weightDram_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">weightDram_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">weightDram_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weightDram_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weightDram_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weightDram_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/run_PE_U0_activity">
+               <obj_property name="label">run_PE_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">run_PE_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">run_PE_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/run_PE_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/run_PE_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/run_PE_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/writeDram_U0_activity">
+               <obj_property name="label">writeDram_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">writeDram_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">writeDram_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/writeDram_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/writeDram_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/writeDram_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/apatb_dataflow_top/AESL_inst_dataflow//AESL_inst_dataflow_activity">
+      <obj_property name="ElementShortName">AESL_inst_dataflow_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_dataflow_activity</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="AESL_inst_dataflow_group">
+      <obj_property name="label">AESL_inst_dataflow</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/loop_dataflow_input_count">
+         <obj_property name="ElementShortName">loop_dataflow_input_count</obj_property>
+         <obj_property name="ObjectShortName">loop_dataflow_input_count</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/loop_dataflow_output_count">
+         <obj_property name="ElementShortName">loop_dataflow_output_count</obj_property>
+         <obj_property name="ObjectShortName">loop_dataflow_output_count</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/dataflow_in_loop_VITIS_LOOP_112_1_U0_activity">
+         <obj_property name="ElementShortName">dataflow_in_loop_VITIS_LOOP_112_1_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">dataflow_in_loop_VITIS_LOOP_112_1_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="AESL_inst_dataflow_Handshake_group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="dataflow_in_loop_VITIS_LOOP_112_1_U0_group">
+         <obj_property name="label">dataflow_in_loop_VITIS_LOOP_112_1_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/entry_proc_U0_activity">
+            <obj_property name="ElementShortName">entry_proc_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">entry_proc_U0_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/readDram_U0_activity">
+            <obj_property name="ElementShortName">readDram_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">readDram_U0_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weightDram_U0_activity">
+            <obj_property name="ElementShortName">weightDram_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">weightDram_U0_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/run_PE_U0_activity">
+            <obj_property name="ElementShortName">run_PE_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">run_PE_U0_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/writeDram_U0_activity">
+            <obj_property name="ElementShortName">writeDram_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">writeDram_U0_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="dataflow_in_loop_VITIS_LOOP_112_1_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="dataflow_in_loop_VITIS_LOOP_112_1_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="dataflow_in_loop_VITIS_LOOP_112_1_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="entry_proc_U0_group">
+            <obj_property name="label">entry_proc_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="entry_proc_U0_Input_group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="entry_proc_U0_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/ap_continue">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="entry_proc_U0_Output_group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="output_r_c_group">
+                  <obj_property name="label">output_r_c(output_r_c_U, FIFO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/output_r_c_blk_n">
+                     <obj_property name="ElementShortName">output_r_c_blk_n</obj_property>
+                     <obj_property name="ObjectShortName">output_r_c_blk_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/output_r_c_din">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/output_r_c_full_n">
+                     <obj_property name="ElementShortName">output_r_c_full_n</obj_property>
+                     <obj_property name="ObjectShortName">output_r_c_full_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/output_r_c_write">
+                     <obj_property name="ElementShortName">output_r_c_write</obj_property>
+                     <obj_property name="ObjectShortName">output_r_c_write</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="readDram_U0_group">
+            <obj_property name="label">readDram_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="readDram_U0_Input_group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="readDram_U0_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_continue">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="readDram_U0_Output_group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="input_buf_group">
+                  <obj_property name="label">input_buf(input_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_ce0">
+                     <obj_property name="ElementShortName">input_buf_ce0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_we0">
+                     <obj_property name="ElementShortName">input_buf_we0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_we0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_done">
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                     <obj_property name="label">ap_done(i_write)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_continue">
+                     <obj_property name="ElementShortName">ap_continue</obj_property>
+                     <obj_property name="ObjectShortName">ap_continue</obj_property>
+                     <obj_property name="label">ap_continue(i_full_n)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="input_buf_1_group">
+                  <obj_property name="label">input_buf_1(input_buf_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_1_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_1_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_1_ce0">
+                     <obj_property name="ElementShortName">input_buf_1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_1_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_1_we0">
+                     <obj_property name="ElementShortName">input_buf_1_we0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_1_we0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_done">
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                     <obj_property name="label">ap_done(i_write)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_continue">
+                     <obj_property name="ElementShortName">ap_continue</obj_property>
+                     <obj_property name="ObjectShortName">ap_continue</obj_property>
+                     <obj_property name="label">ap_continue(i_full_n)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="weightDram_U0_group">
+            <obj_property name="label">weightDram_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="weightDram_U0_Input_group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="weightDram_U0_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_continue">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="weightDram_U0_Output_group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="weight_buf_group">
+                  <obj_property name="label">weight_buf(weight_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_ce0">
+                     <obj_property name="ElementShortName">weight_buf_ce0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_we0">
+                     <obj_property name="ElementShortName">weight_buf_we0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_we0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_done">
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                     <obj_property name="label">ap_done(i_write)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_continue">
+                     <obj_property name="ElementShortName">ap_continue</obj_property>
+                     <obj_property name="ObjectShortName">ap_continue</obj_property>
+                     <obj_property name="label">ap_continue(i_full_n)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="weight_buf_1_group">
+                  <obj_property name="label">weight_buf_1(weight_buf_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_1_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_1_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_1_ce0">
+                     <obj_property name="ElementShortName">weight_buf_1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_1_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_1_we0">
+                     <obj_property name="ElementShortName">weight_buf_1_we0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_1_we0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_done">
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                     <obj_property name="label">ap_done(i_write)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_continue">
+                     <obj_property name="ElementShortName">ap_continue</obj_property>
+                     <obj_property name="ObjectShortName">ap_continue</obj_property>
+                     <obj_property name="label">ap_continue(i_full_n)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="run_PE_U0_group">
+            <obj_property name="label">run_PE_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="run_PE_U0_Input_group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="input_buf1_group">
+                  <obj_property name="label">input_buf1(input_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf1_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf1_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf1_ce0">
+                     <obj_property name="ElementShortName">input_buf1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf1_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_ready">
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                     <obj_property name="label">ap_ready(t_read)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="input_buf_12_group">
+                  <obj_property name="label">input_buf_12(input_buf_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf_12_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf_12_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf_12_ce0">
+                     <obj_property name="ElementShortName">input_buf_12_ce0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_12_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_ready">
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                     <obj_property name="label">ap_ready(t_read)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="weight_buf3_group">
+                  <obj_property name="label">weight_buf3(weight_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf3_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf3_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf3_ce0">
+                     <obj_property name="ElementShortName">weight_buf3_ce0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf3_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_ready">
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                     <obj_property name="label">ap_ready(t_read)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="weight_buf_14_group">
+                  <obj_property name="label">weight_buf_14(weight_buf_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf_14_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf_14_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf_14_ce0">
+                     <obj_property name="ElementShortName">weight_buf_14_ce0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_14_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_ready">
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                     <obj_property name="label">ap_ready(t_read)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="run_PE_U0_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_continue">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="run_PE_U0_Output_group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="output_buf5_group">
+                  <obj_property name="label">output_buf5(output_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/output_buf5_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/output_buf5_d0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/output_buf5_ce0">
+                     <obj_property name="ElementShortName">output_buf5_ce0</obj_property>
+                     <obj_property name="ObjectShortName">output_buf5_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/output_buf5_we0">
+                     <obj_property name="ElementShortName">output_buf5_we0</obj_property>
+                     <obj_property name="ObjectShortName">output_buf5_we0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_done">
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                     <obj_property name="label">ap_done(i_write)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_continue">
+                     <obj_property name="ElementShortName">ap_continue</obj_property>
+                     <obj_property name="ObjectShortName">ap_continue</obj_property>
+                     <obj_property name="label">ap_continue(i_full_n)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="writeDram_U0_group">
+            <obj_property name="label">writeDram_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="writeDram_U0_Input_group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="output_buf_group">
+                  <obj_property name="label">output_buf(output_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_buf_address0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_buf_q0">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_buf_ce0">
+                     <obj_property name="ElementShortName">output_buf_ce0</obj_property>
+                     <obj_property name="ObjectShortName">output_buf_ce0</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/ap_ready">
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                     <obj_property name="label">ap_ready(t_read)</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="output_r_group">
+                  <obj_property name="label">output_r(output_r_c_U, FIFO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_r_blk_n">
+                     <obj_property name="ElementShortName">output_r_blk_n</obj_property>
+                     <obj_property name="ObjectShortName">output_r_blk_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_r_dout">
+                     <obj_property name="ElementShortName">output_r_dout[63:0]</obj_property>
+                     <obj_property name="ObjectShortName">output_r_dout[63:0]</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_r_empty_n">
+                     <obj_property name="ElementShortName">output_r_empty_n</obj_property>
+                     <obj_property name="ObjectShortName">output_r_empty_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_r_read">
+                     <obj_property name="ElementShortName">output_r_read</obj_property>
+                     <obj_property name="ObjectShortName">output_r_read</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="writeDram_U0_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/ap_continue">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="writeDram_U0_Output_group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

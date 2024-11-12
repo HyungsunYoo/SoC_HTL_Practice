@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/gudtj/soc_241031_new/soc_241031_new.runs/synth_1'
+HD_PWD='C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/SoC_HTL_Practice/241105/241105.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

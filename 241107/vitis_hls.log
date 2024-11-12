@@ -1,0 +1,46 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'gudtj' on host 'hyungsunyoo' (Windows NT_amd64 version 6.2) on Tue Nov 12 12:32:19 +0900 2024
+INFO: [HLS 200-10] In directory 'C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107'
+Sourcing Tcl script 'C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: source C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/export.tcl
+INFO: [HLS 200-1510] Running: open_project dataflow 
+INFO: [HLS 200-10] Opening project 'C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow'.
+INFO: [HLS 200-1510] Running: set_top dataflow 
+INFO: [HLS 200-1510] Running: add_files dataflow_ex_5.cpp 
+INFO: [HLS 200-10] Adding design file 'dataflow_ex_5.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb dataflow_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'dataflow_tb.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vitis 
+INFO: [HLS 200-10] Opening solution 'C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sbva484-1-i'
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1464] Running solution command: config_export -format=xo
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=100MHz
+INFO: [HLS 200-1510] Running: set_part xczu3eg-sbva484-1-i 
+INFO: [HLS 200-1510] Running: create_clock -period 100MHz -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format xo -rtl verilog -vivado_clock 100MHz 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format xo 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+Running package_xo -xo_path C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/export.xo -kernel_name dataflow -kernel_xml C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip/../kernel/kernel.xml -kernel_files C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow_ex_5.cpp -ip_directory C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip/ip_unzip_dir -design_xml C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/.autopilot/db/dataflow.design.xml -debug_directory C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/.debug -hls_directory C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip/hls_files
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 12 12:32:32 2024...
+INFO: [HLS 200-802] Generated output file dataflow/solution1/impl/export.xo
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 11.676 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 0 seconds. Total elapsed time: 13.818 seconds; peak allocated memory: 1.465 GB.

@@ -1,0 +1,2551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dataflow.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_dataflow_monitor_sv " />
+            <top_module name="apatb_dataflow_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="19.978724 us"></ZoomEndTime>
+      <Cursor1Time time="0.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="HLS Process Summary Group" type="group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow//AESL_inst_dataflow_activity" type="group">
+         <obj_property name="label">AESL_inst_dataflow_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_dataflow_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_dataflow_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow//AESL_inst_dataflow_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow//AESL_inst_dataflow_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow//AESL_inst_dataflow_activity.dataflowTxTooltipData</obj_property>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/dataflow_in_loop_VITIS_LOOP_112_1_U0_activity" type="group">
+            <obj_property name="label">dataflow_in_loop_VITIS_LOOP_112_1_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">dataflow_in_loop_VITIS_LOOP_112_1_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">dataflow_in_loop_VITIS_LOOP_112_1_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/dataflow_in_loop_VITIS_LOOP_112_1_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/dataflow_in_loop_VITIS_LOOP_112_1_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/dataflow_in_loop_VITIS_LOOP_112_1_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/entry_proc_U0_activity" type="group">
+               <obj_property name="label">entry_proc_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">entry_proc_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">entry_proc_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/entry_proc_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/entry_proc_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/entry_proc_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/readDram_U0_activity" type="group">
+               <obj_property name="label">readDram_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">readDram_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">readDram_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/readDram_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/readDram_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/readDram_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weightDram_U0_activity" type="group">
+               <obj_property name="label">weightDram_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">weightDram_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">weightDram_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weightDram_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weightDram_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weightDram_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/run_PE_U0_activity" type="group">
+               <obj_property name="label">run_PE_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">run_PE_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">run_PE_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/run_PE_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/run_PE_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/run_PE_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/writeDram_U0_activity" type="group">
+               <obj_property name="label">writeDram_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">writeDram_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">writeDram_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/writeDram_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/writeDram_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/writeDram_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/AESL_inst_dataflow_activity" type="protoinst">
+      <obj_property name="ElementShortName">AESL_inst_dataflow_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_dataflow_activity</obj_property>
+   </wvobject>
+   <wvobject fp_name="AESL_inst_dataflow_group" type="group">
+      <obj_property name="label">AESL_inst_dataflow</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/loop_dataflow_input_count" type="array">
+         <obj_property name="ElementShortName">loop_dataflow_input_count[2:0]</obj_property>
+         <obj_property name="ObjectShortName">loop_dataflow_input_count[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/loop_dataflow_output_count" type="array">
+         <obj_property name="ElementShortName">loop_dataflow_output_count[2:0]</obj_property>
+         <obj_property name="ObjectShortName">loop_dataflow_output_count[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/dataflow_in_loop_VITIS_LOOP_112_1_U0_activity" type="protoinst">
+         <obj_property name="ElementShortName">dataflow_in_loop_VITIS_LOOP_112_1_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">dataflow_in_loop_VITIS_LOOP_112_1_U0_activity</obj_property>
+      </wvobject>
+      <wvobject fp_name="AESL_inst_dataflow_Handshake_group" type="group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="dataflow_in_loop_VITIS_LOOP_112_1_U0_group" type="group">
+         <obj_property name="label">dataflow_in_loop_VITIS_LOOP_112_1_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/entry_proc_U0_activity" type="protoinst">
+            <obj_property name="ElementShortName">entry_proc_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">entry_proc_U0_activity</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/readDram_U0_activity" type="protoinst">
+            <obj_property name="ElementShortName">readDram_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">readDram_U0_activity</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weightDram_U0_activity" type="protoinst">
+            <obj_property name="ElementShortName">weightDram_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">weightDram_U0_activity</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/run_PE_U0_activity" type="protoinst">
+            <obj_property name="ElementShortName">run_PE_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">run_PE_U0_activity</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/writeDram_U0_activity" type="protoinst">
+            <obj_property name="ElementShortName">writeDram_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">writeDram_U0_activity</obj_property>
+         </wvobject>
+         <wvobject fp_name="dataflow_in_loop_VITIS_LOOP_112_1_U0_Input_group" type="group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject fp_name="dataflow_in_loop_VITIS_LOOP_112_1_U0_Handshake_group" type="group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/ap_start" type="logic">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/ap_ready" type="logic">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/ap_done" type="logic">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/ap_continue" type="logic">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="dataflow_in_loop_VITIS_LOOP_112_1_U0_Output_group" type="group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject fp_name="entry_proc_U0_group" type="group">
+            <obj_property name="label">entry_proc_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="entry_proc_U0_Input_group" type="group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+            </wvobject>
+            <wvobject fp_name="entry_proc_U0_Handshake_group" type="group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/ap_start" type="logic">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/ap_ready" type="logic">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/ap_done" type="logic">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/ap_continue" type="logic">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="entry_proc_U0_Output_group" type="group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="output_r_c_group" type="group">
+                  <obj_property name="label">output_r_c(output_r_c_U, FIFO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/output_r_c_blk_n" type="logic">
+                     <obj_property name="ElementShortName">output_r_c_blk_n</obj_property>
+                     <obj_property name="ObjectShortName">output_r_c_blk_n</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/output_r_c_din" type="array">
+                     <obj_property name="ElementShortName">output_r_c_din[63:0]</obj_property>
+                     <obj_property name="ObjectShortName">output_r_c_din[63:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/output_r_c_full_n" type="logic">
+                     <obj_property name="ElementShortName">output_r_c_full_n</obj_property>
+                     <obj_property name="ObjectShortName">output_r_c_full_n</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/entry_proc_U0/output_r_c_write" type="logic">
+                     <obj_property name="ElementShortName">output_r_c_write</obj_property>
+                     <obj_property name="ObjectShortName">output_r_c_write</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="readDram_U0_group" type="group">
+            <obj_property name="label">readDram_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="readDram_U0_Input_group" type="group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+            </wvobject>
+            <wvobject fp_name="readDram_U0_Handshake_group" type="group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_start" type="logic">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_ready" type="logic">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_done" type="logic">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_continue" type="logic">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="readDram_U0_Output_group" type="group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="input_buf_group" type="group">
+                  <obj_property name="label">input_buf(input_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_address0" type="array">
+                     <obj_property name="ElementShortName">input_buf_address0[2:0]</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_address0[2:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_d0" type="array">
+                     <obj_property name="ElementShortName">input_buf_d0[7:0]</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_d0[7:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_ce0" type="logic">
+                     <obj_property name="ElementShortName">input_buf_ce0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_ce0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_we0" type="logic">
+                     <obj_property name="ElementShortName">input_buf_we0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_we0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_done" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                     <obj_property name="label">ap_done(i_write)</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_continue" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_continue</obj_property>
+                     <obj_property name="ObjectShortName">ap_continue</obj_property>
+                     <obj_property name="label">ap_continue(i_full_n)</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject fp_name="input_buf_1_group" type="group">
+                  <obj_property name="label">input_buf_1(input_buf_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_1_address0" type="array">
+                     <obj_property name="ElementShortName">input_buf_1_address0[2:0]</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_1_address0[2:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_1_d0" type="array">
+                     <obj_property name="ElementShortName">input_buf_1_d0[7:0]</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_1_d0[7:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_1_ce0" type="logic">
+                     <obj_property name="ElementShortName">input_buf_1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_1_ce0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/input_buf_1_we0" type="logic">
+                     <obj_property name="ElementShortName">input_buf_1_we0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_1_we0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_done" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                     <obj_property name="label">ap_done(i_write)</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/readDram_U0/ap_continue" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_continue</obj_property>
+                     <obj_property name="ObjectShortName">ap_continue</obj_property>
+                     <obj_property name="label">ap_continue(i_full_n)</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="weightDram_U0_group" type="group">
+            <obj_property name="label">weightDram_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="weightDram_U0_Input_group" type="group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+            </wvobject>
+            <wvobject fp_name="weightDram_U0_Handshake_group" type="group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_start" type="logic">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_ready" type="logic">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_done" type="logic">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_continue" type="logic">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="weightDram_U0_Output_group" type="group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="weight_buf_group" type="group">
+                  <obj_property name="label">weight_buf(weight_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_address0" type="array">
+                     <obj_property name="ElementShortName">weight_buf_address0[2:0]</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_address0[2:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_d0" type="array">
+                     <obj_property name="ElementShortName">weight_buf_d0[7:0]</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_d0[7:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_ce0" type="logic">
+                     <obj_property name="ElementShortName">weight_buf_ce0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_ce0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_we0" type="logic">
+                     <obj_property name="ElementShortName">weight_buf_we0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_we0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_done" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                     <obj_property name="label">ap_done(i_write)</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_continue" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_continue</obj_property>
+                     <obj_property name="ObjectShortName">ap_continue</obj_property>
+                     <obj_property name="label">ap_continue(i_full_n)</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject fp_name="weight_buf_1_group" type="group">
+                  <obj_property name="label">weight_buf_1(weight_buf_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_1_address0" type="array">
+                     <obj_property name="ElementShortName">weight_buf_1_address0[2:0]</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_1_address0[2:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_1_d0" type="array">
+                     <obj_property name="ElementShortName">weight_buf_1_d0[7:0]</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_1_d0[7:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_1_ce0" type="logic">
+                     <obj_property name="ElementShortName">weight_buf_1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_1_ce0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/weight_buf_1_we0" type="logic">
+                     <obj_property name="ElementShortName">weight_buf_1_we0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_1_we0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_done" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                     <obj_property name="label">ap_done(i_write)</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/weightDram_U0/ap_continue" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_continue</obj_property>
+                     <obj_property name="ObjectShortName">ap_continue</obj_property>
+                     <obj_property name="label">ap_continue(i_full_n)</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="run_PE_U0_group" type="group">
+            <obj_property name="label">run_PE_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="run_PE_U0_Input_group" type="group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="input_buf1_group" type="group">
+                  <obj_property name="label">input_buf1(input_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf1_address0" type="array">
+                     <obj_property name="ElementShortName">input_buf1_address0[2:0]</obj_property>
+                     <obj_property name="ObjectShortName">input_buf1_address0[2:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf1_q0" type="array">
+                     <obj_property name="ElementShortName">input_buf1_q0[7:0]</obj_property>
+                     <obj_property name="ObjectShortName">input_buf1_q0[7:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf1_ce0" type="logic">
+                     <obj_property name="ElementShortName">input_buf1_ce0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf1_ce0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_ready" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                     <obj_property name="label">ap_ready(t_read)</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject fp_name="input_buf_12_group" type="group">
+                  <obj_property name="label">input_buf_12(input_buf_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf_12_address0" type="array">
+                     <obj_property name="ElementShortName">input_buf_12_address0[2:0]</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_12_address0[2:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf_12_q0" type="array">
+                     <obj_property name="ElementShortName">input_buf_12_q0[7:0]</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_12_q0[7:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/input_buf_12_ce0" type="logic">
+                     <obj_property name="ElementShortName">input_buf_12_ce0</obj_property>
+                     <obj_property name="ObjectShortName">input_buf_12_ce0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_ready" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                     <obj_property name="label">ap_ready(t_read)</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject fp_name="weight_buf3_group" type="group">
+                  <obj_property name="label">weight_buf3(weight_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf3_address0" type="array">
+                     <obj_property name="ElementShortName">weight_buf3_address0[2:0]</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf3_address0[2:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf3_q0" type="array">
+                     <obj_property name="ElementShortName">weight_buf3_q0[7:0]</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf3_q0[7:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf3_ce0" type="logic">
+                     <obj_property name="ElementShortName">weight_buf3_ce0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf3_ce0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_ready" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                     <obj_property name="label">ap_ready(t_read)</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject fp_name="weight_buf_14_group" type="group">
+                  <obj_property name="label">weight_buf_14(weight_buf_1_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf_14_address0" type="array">
+                     <obj_property name="ElementShortName">weight_buf_14_address0[2:0]</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_14_address0[2:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf_14_q0" type="array">
+                     <obj_property name="ElementShortName">weight_buf_14_q0[7:0]</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_14_q0[7:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/weight_buf_14_ce0" type="logic">
+                     <obj_property name="ElementShortName">weight_buf_14_ce0</obj_property>
+                     <obj_property name="ObjectShortName">weight_buf_14_ce0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_ready" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                     <obj_property name="label">ap_ready(t_read)</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="run_PE_U0_Handshake_group" type="group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_start" type="logic">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_ready" type="logic">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_done" type="logic">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_continue" type="logic">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="run_PE_U0_Output_group" type="group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="output_buf5_group" type="group">
+                  <obj_property name="label">output_buf5(output_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/output_buf5_address0" type="array">
+                     <obj_property name="ElementShortName">output_buf5_address0[1:0]</obj_property>
+                     <obj_property name="ObjectShortName">output_buf5_address0[1:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/output_buf5_d0" type="array">
+                     <obj_property name="ElementShortName">output_buf5_d0[31:0]</obj_property>
+                     <obj_property name="ObjectShortName">output_buf5_d0[31:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/output_buf5_ce0" type="logic">
+                     <obj_property name="ElementShortName">output_buf5_ce0</obj_property>
+                     <obj_property name="ObjectShortName">output_buf5_ce0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/output_buf5_we0" type="logic">
+                     <obj_property name="ElementShortName">output_buf5_we0</obj_property>
+                     <obj_property name="ObjectShortName">output_buf5_we0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_done" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                     <obj_property name="label">ap_done(i_write)</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/run_PE_U0/ap_continue" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_continue</obj_property>
+                     <obj_property name="ObjectShortName">ap_continue</obj_property>
+                     <obj_property name="label">ap_continue(i_full_n)</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="writeDram_U0_group" type="group">
+            <obj_property name="label">writeDram_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="writeDram_U0_Input_group" type="group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="output_buf_group" type="group">
+                  <obj_property name="label">output_buf(output_buf_U, PIPO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_buf_address0" type="array">
+                     <obj_property name="ElementShortName">output_buf_address0[1:0]</obj_property>
+                     <obj_property name="ObjectShortName">output_buf_address0[1:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_buf_q0" type="array">
+                     <obj_property name="ElementShortName">output_buf_q0[31:0]</obj_property>
+                     <obj_property name="ObjectShortName">output_buf_q0[31:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_buf_ce0" type="logic">
+                     <obj_property name="ElementShortName">output_buf_ce0</obj_property>
+                     <obj_property name="ObjectShortName">output_buf_ce0</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/ap_ready" type="logic">
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                     <obj_property name="label">ap_ready(t_read)</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject fp_name="output_r_group" type="group">
+                  <obj_property name="label">output_r(output_r_c_U, FIFO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_r_blk_n" type="logic">
+                     <obj_property name="ElementShortName">output_r_blk_n</obj_property>
+                     <obj_property name="ObjectShortName">output_r_blk_n</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_r_dout" type="array">
+                     <obj_property name="ElementShortName">output_r_dout[63:0]</obj_property>
+                     <obj_property name="ObjectShortName">output_r_dout[63:0]</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_r_empty_n" type="logic">
+                     <obj_property name="ElementShortName">output_r_empty_n</obj_property>
+                     <obj_property name="ObjectShortName">output_r_empty_n</obj_property>
+                  </wvobject>
+                  <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/output_r_read" type="logic">
+                     <obj_property name="ElementShortName">output_r_read</obj_property>
+                     <obj_property name="ObjectShortName">output_r_read</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="writeDram_U0_Handshake_group" type="group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/ap_start" type="logic">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/ap_ready" type="logic">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/ap_done" type="logic">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/dataflow_in_loop_VITIS_LOOP_112_1_U0/writeDram_U0/ap_continue" type="logic">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="writeDram_U0_Output_group" type="group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group227" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group228" type="group">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group229" type="group">
+            <obj_property name="label">input_r__weight__output_r__return(axi_slave)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/interrupt" type="logic">
+               <obj_property name="ElementShortName">interrupt</obj_property>
+               <obj_property name="ObjectShortName">interrupt</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_BRESP" type="array">
+               <obj_property name="ElementShortName">s_axi_control_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_BREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_BREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_BVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_BVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_RRESP" type="array">
+               <obj_property name="ElementShortName">s_axi_control_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_RDATA" type="array">
+               <obj_property name="ElementShortName">s_axi_control_RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_RREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_RREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_RVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_RVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_ARREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_ARVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_ARADDR" type="array">
+               <obj_property name="ElementShortName">s_axi_control_ARADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_WSTRB" type="array">
+               <obj_property name="ElementShortName">s_axi_control_WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WSTRB[3:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_WDATA" type="array">
+               <obj_property name="ElementShortName">s_axi_control_WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_WREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_WREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_WVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_WVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_AWREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_AWVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_control_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/s_axi_control_AWADDR" type="array">
+               <obj_property name="ElementShortName">s_axi_control_AWADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group248" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group249" type="group">
+            <obj_property name="label">output_r(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group250" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_RRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_RUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_RID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_RDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_RDATA[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_RDATA[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group251" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_BUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_BID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_BRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_WUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_WID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_WSTRB" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_WSTRB[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_WSTRB[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_WDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_WDATA[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_WDATA[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group252" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_BREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_BVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_RLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_RREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_RVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_WLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_WREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_WVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem1_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem1_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem1_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group298" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group299" type="group">
+            <obj_property name="label">weight(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group300" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_RRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_RUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_RID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_RDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group301" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_BUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_BID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_BRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_WUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_WID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_WSTRB" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_WDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group302" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_BREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_BVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_RLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_RREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_RVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_WLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_WREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_WVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem2_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem2_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem2_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group348" type="group">
+            <obj_property name="label">input_r(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group349" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_RRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_RUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_RID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_RDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group350" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_BUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_BID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_BRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_WUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_WID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_WSTRB" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_WDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group351" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_BREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_BVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_RLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_RREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_RVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_WLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_WREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_WVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/m_axi_gmem0_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group397" type="group">
+         <obj_property name="label">Block-level IO Handshake(internal)</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group402" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_rst_n" type="logic">
+            <obj_property name="ElementShortName">ap_rst_n</obj_property>
+            <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group404" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_dataflow_top/AESL_inst_dataflow/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group406" type="group">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group407" type="group">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group408" type="group">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_dataflow_top/AUTOTB_TRANSACTION_NUM" type="array">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/ready_cnt" type="array">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/done_cnt" type="array">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group409" type="group">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_dataflow_top/LENGTH_input_r" type="array">
+               <obj_property name="ElementShortName">LENGTH_input_r[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_input_r[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/LENGTH_weight" type="array">
+               <obj_property name="ElementShortName">LENGTH_weight[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_weight[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/LENGTH_output_r" type="array">
+               <obj_property name="ElementShortName">LENGTH_output_r[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_output_r[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/LENGTH_gmem0" type="array">
+               <obj_property name="ElementShortName">LENGTH_gmem0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_gmem0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/LENGTH_gmem1" type="array">
+               <obj_property name="ElementShortName">LENGTH_gmem1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_gmem1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/LENGTH_gmem2" type="array">
+               <obj_property name="ElementShortName">LENGTH_gmem2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_gmem2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group419" type="group">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group420" type="group">
+            <obj_property name="label">input_r__weight__output_r__return(axi_slave)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_dataflow_top/control_INTERRUPT" type="logic">
+               <obj_property name="ElementShortName">control_INTERRUPT</obj_property>
+               <obj_property name="ObjectShortName">control_INTERRUPT</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_BRESP" type="array">
+               <obj_property name="ElementShortName">control_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">control_BRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_BREADY" type="logic">
+               <obj_property name="ElementShortName">control_BREADY</obj_property>
+               <obj_property name="ObjectShortName">control_BREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_BVALID" type="logic">
+               <obj_property name="ElementShortName">control_BVALID</obj_property>
+               <obj_property name="ObjectShortName">control_BVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_RRESP" type="array">
+               <obj_property name="ElementShortName">control_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">control_RRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_RDATA" type="array">
+               <obj_property name="ElementShortName">control_RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">control_RDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_RREADY" type="logic">
+               <obj_property name="ElementShortName">control_RREADY</obj_property>
+               <obj_property name="ObjectShortName">control_RREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_RVALID" type="logic">
+               <obj_property name="ElementShortName">control_RVALID</obj_property>
+               <obj_property name="ObjectShortName">control_RVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_ARREADY" type="logic">
+               <obj_property name="ElementShortName">control_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">control_ARREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_ARVALID" type="logic">
+               <obj_property name="ElementShortName">control_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">control_ARVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_ARADDR" type="array">
+               <obj_property name="ElementShortName">control_ARADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">control_ARADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_WSTRB" type="array">
+               <obj_property name="ElementShortName">control_WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">control_WSTRB[3:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_WDATA" type="array">
+               <obj_property name="ElementShortName">control_WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">control_WDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_WREADY" type="logic">
+               <obj_property name="ElementShortName">control_WREADY</obj_property>
+               <obj_property name="ObjectShortName">control_WREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_WVALID" type="logic">
+               <obj_property name="ElementShortName">control_WVALID</obj_property>
+               <obj_property name="ObjectShortName">control_WVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_AWREADY" type="logic">
+               <obj_property name="ElementShortName">control_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">control_AWREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_AWVALID" type="logic">
+               <obj_property name="ElementShortName">control_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">control_AWVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_dataflow_top/control_AWADDR" type="array">
+               <obj_property name="ElementShortName">control_AWADDR[5:0]</obj_property>
+               <obj_property name="ObjectShortName">control_AWADDR[5:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group439" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group440" type="group">
+            <obj_property name="label">output_r(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group441" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_RRESP" type="array">
+                  <obj_property name="ElementShortName">gmem1_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_RUSER" type="array">
+                  <obj_property name="ElementShortName">gmem1_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_RID" type="array">
+                  <obj_property name="ElementShortName">gmem1_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_RDATA" type="array">
+                  <obj_property name="ElementShortName">gmem1_RDATA[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_RDATA[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARUSER" type="array">
+                  <obj_property name="ElementShortName">gmem1_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARREGION" type="array">
+                  <obj_property name="ElementShortName">gmem1_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARQOS" type="array">
+                  <obj_property name="ElementShortName">gmem1_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARPROT" type="array">
+                  <obj_property name="ElementShortName">gmem1_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem1_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem1_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARBURST" type="array">
+                  <obj_property name="ElementShortName">gmem1_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem1_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARLEN" type="array">
+                  <obj_property name="ElementShortName">gmem1_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARID" type="array">
+                  <obj_property name="ElementShortName">gmem1_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARADDR" type="array">
+                  <obj_property name="ElementShortName">gmem1_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group442" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_BUSER" type="array">
+                  <obj_property name="ElementShortName">gmem1_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_BID" type="array">
+                  <obj_property name="ElementShortName">gmem1_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_BRESP" type="array">
+                  <obj_property name="ElementShortName">gmem1_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_WUSER" type="array">
+                  <obj_property name="ElementShortName">gmem1_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_WID" type="array">
+                  <obj_property name="ElementShortName">gmem1_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_WSTRB" type="array">
+                  <obj_property name="ElementShortName">gmem1_WSTRB[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_WSTRB[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_WDATA" type="array">
+                  <obj_property name="ElementShortName">gmem1_WDATA[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_WDATA[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWUSER" type="array">
+                  <obj_property name="ElementShortName">gmem1_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWREGION" type="array">
+                  <obj_property name="ElementShortName">gmem1_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWQOS" type="array">
+                  <obj_property name="ElementShortName">gmem1_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWPROT" type="array">
+                  <obj_property name="ElementShortName">gmem1_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem1_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem1_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWBURST" type="array">
+                  <obj_property name="ElementShortName">gmem1_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem1_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWLEN" type="array">
+                  <obj_property name="ElementShortName">gmem1_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWID" type="array">
+                  <obj_property name="ElementShortName">gmem1_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWADDR" type="array">
+                  <obj_property name="ElementShortName">gmem1_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group443" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_BREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem1_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_BVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem1_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_RLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem1_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_RREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem1_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_RVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem1_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem1_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem1_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_WLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem1_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_WREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem1_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_WVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem1_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem1_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem1_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem1_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem1_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group489" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group490" type="group">
+            <obj_property name="label">weight(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group491" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_RRESP" type="array">
+                  <obj_property name="ElementShortName">gmem2_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_RUSER" type="array">
+                  <obj_property name="ElementShortName">gmem2_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_RID" type="array">
+                  <obj_property name="ElementShortName">gmem2_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_RDATA" type="array">
+                  <obj_property name="ElementShortName">gmem2_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARUSER" type="array">
+                  <obj_property name="ElementShortName">gmem2_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARREGION" type="array">
+                  <obj_property name="ElementShortName">gmem2_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARQOS" type="array">
+                  <obj_property name="ElementShortName">gmem2_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARPROT" type="array">
+                  <obj_property name="ElementShortName">gmem2_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem2_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem2_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARBURST" type="array">
+                  <obj_property name="ElementShortName">gmem2_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem2_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARLEN" type="array">
+                  <obj_property name="ElementShortName">gmem2_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARID" type="array">
+                  <obj_property name="ElementShortName">gmem2_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARADDR" type="array">
+                  <obj_property name="ElementShortName">gmem2_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group492" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_BUSER" type="array">
+                  <obj_property name="ElementShortName">gmem2_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_BID" type="array">
+                  <obj_property name="ElementShortName">gmem2_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_BRESP" type="array">
+                  <obj_property name="ElementShortName">gmem2_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_WUSER" type="array">
+                  <obj_property name="ElementShortName">gmem2_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_WID" type="array">
+                  <obj_property name="ElementShortName">gmem2_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_WSTRB" type="array">
+                  <obj_property name="ElementShortName">gmem2_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_WDATA" type="array">
+                  <obj_property name="ElementShortName">gmem2_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWUSER" type="array">
+                  <obj_property name="ElementShortName">gmem2_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWREGION" type="array">
+                  <obj_property name="ElementShortName">gmem2_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWQOS" type="array">
+                  <obj_property name="ElementShortName">gmem2_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWPROT" type="array">
+                  <obj_property name="ElementShortName">gmem2_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem2_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem2_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWBURST" type="array">
+                  <obj_property name="ElementShortName">gmem2_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem2_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWLEN" type="array">
+                  <obj_property name="ElementShortName">gmem2_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWID" type="array">
+                  <obj_property name="ElementShortName">gmem2_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWADDR" type="array">
+                  <obj_property name="ElementShortName">gmem2_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group493" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_BREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem2_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_BVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem2_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_RLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem2_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_RREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem2_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_RVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem2_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem2_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem2_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_WLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem2_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_WREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem2_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_WVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem2_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem2_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem2_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem2_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem2_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group539" type="group">
+            <obj_property name="label">input_r(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group540" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_RRESP" type="array">
+                  <obj_property name="ElementShortName">gmem0_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_RUSER" type="array">
+                  <obj_property name="ElementShortName">gmem0_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_RID" type="array">
+                  <obj_property name="ElementShortName">gmem0_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_RDATA" type="array">
+                  <obj_property name="ElementShortName">gmem0_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARUSER" type="array">
+                  <obj_property name="ElementShortName">gmem0_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARREGION" type="array">
+                  <obj_property name="ElementShortName">gmem0_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARQOS" type="array">
+                  <obj_property name="ElementShortName">gmem0_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARPROT" type="array">
+                  <obj_property name="ElementShortName">gmem0_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARBURST" type="array">
+                  <obj_property name="ElementShortName">gmem0_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARLEN" type="array">
+                  <obj_property name="ElementShortName">gmem0_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARID" type="array">
+                  <obj_property name="ElementShortName">gmem0_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARADDR" type="array">
+                  <obj_property name="ElementShortName">gmem0_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group541" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_BUSER" type="array">
+                  <obj_property name="ElementShortName">gmem0_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_BID" type="array">
+                  <obj_property name="ElementShortName">gmem0_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_BRESP" type="array">
+                  <obj_property name="ElementShortName">gmem0_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_WUSER" type="array">
+                  <obj_property name="ElementShortName">gmem0_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_WID" type="array">
+                  <obj_property name="ElementShortName">gmem0_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_WSTRB" type="array">
+                  <obj_property name="ElementShortName">gmem0_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_WDATA" type="array">
+                  <obj_property name="ElementShortName">gmem0_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWUSER" type="array">
+                  <obj_property name="ElementShortName">gmem0_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWREGION" type="array">
+                  <obj_property name="ElementShortName">gmem0_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWQOS" type="array">
+                  <obj_property name="ElementShortName">gmem0_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWPROT" type="array">
+                  <obj_property name="ElementShortName">gmem0_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWBURST" type="array">
+                  <obj_property name="ElementShortName">gmem0_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWLEN" type="array">
+                  <obj_property name="ElementShortName">gmem0_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWID" type="array">
+                  <obj_property name="ElementShortName">gmem0_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWADDR" type="array">
+                  <obj_property name="ElementShortName">gmem0_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group542" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_BREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem0_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_BVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem0_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_RLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem0_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_RREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem0_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_RVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem0_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem0_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem0_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_WLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem0_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_WREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem0_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_WVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem0_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem0_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_dataflow_top/gmem0_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem0_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

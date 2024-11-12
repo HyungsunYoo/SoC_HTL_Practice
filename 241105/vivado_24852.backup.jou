@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Nov 11 15:43:22 2024
+# Process ID: 24852
+# Current directory: C:/Users/gudtj/OneDrive/Desktop/9학기/기초SoC설계/SoC_HTL_Practice/241105
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1696 C:\Users\gudtj\OneDrive\Desktop\9학기\기초SoC설계\SoC_HTL_Practice\241105\241105.xpr
+# Log file: C:/Users/gudtj/OneDrive/Desktop/9학기/기초SoC설계/SoC_HTL_Practice/241105/vivado.log
+# Journal file: C:/Users/gudtj/OneDrive/Desktop/9학기/기초SoC설계/SoC_HTL_Practice/241105\vivado.jou
+# Running On: HyungsunYoo, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 68342 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gudtj/OneDrive/Desktop/9학기/기초SoC설계/SoC_HTL_Practice/241105/241105.xpr
+update_compile_order -fileset sources_1

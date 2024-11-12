@@ -1,0 +1,211 @@
+
+
+================================================================
+== Synthesis Summary Report of 'dataflow'
+================================================================
++ General Information: 
+    * Date:           Tue Nov 12 11:52:56 2024
+    * Version:        2022.1 (Build 3526262 on Mon Apr 18 15:48:16 MDT 2022)
+    * Project:        dataflow
+    * Solution:       solution1 (Vitis Kernel Flow Target)
+    * Product family: zynquplus
+    * Target device:  xczu3eg-sbva484-1-i
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------------------------------------+------+------+---------+-----------+----------+---------+------+----------+------+----+-----------+-----------+-----+
+    |                 Modules                | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |      |    |           |           |     |
+    |                 & Loops                | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined| BRAM | DSP|     FF    |    LUT    | URAM|
+    +----------------------------------------+------+------+---------+-----------+----------+---------+------+----------+------+----+-----------+-----------+-----+
+    |+ dataflow                              |     -|  0.00|      454|  4.540e+03|         -|      455|     -|        no|     -|   -|  3408 (2%)|  6814 (9%)|    -|
+    | o VITIS_LOOP_112_1                     |     -|  7.30|      453|  4.530e+03|       193|        -|     4|        no|     -|   -|          -|          -|    -|
+    |  + dataflow_in_loop_VITIS_LOOP_112_1*  |     -|  0.00|      191|  1.910e+03|         -|       87|     -|  dataflow|     -|   -|  841 (~0%)|  2096 (2%)|    -|
+    |   + readDram                           |     -|  0.00|       86|    860.000|         -|       86|     -|        no|     -|   -|  102 (~0%)|  501 (~0%)|    -|
+    |    o VITIS_LOOP_5_1                    |     -|  7.30|       16|    160.000|         8|        -|     2|        no|     -|   -|          -|          -|    -|
+    |     o VITIS_LOOP_7_2                   |     -|  7.30|        6|     60.000|         3|        -|     2|        no|     -|   -|          -|          -|    -|
+    |   + weightDram                         |     -|  0.00|       86|    860.000|         -|       86|     -|        no|     -|   -|  100 (~0%)|  492 (~0%)|    -|
+    |    o Loop_Weight_Dram                  |     -|  7.30|       16|    160.000|         8|        -|     2|        no|     -|   -|          -|          -|    -|
+    |     o VITIS_LOOP_21_1                  |     -|  7.30|        6|     60.000|         3|        -|     2|        no|     -|   -|          -|          -|    -|
+    |   + run_PE                             |     -|  3.06|       28|    280.000|         -|       28|     -|        no|     -|   -|  102 (~0%)|  352 (~0%)|    -|
+    |    o VITIS_LOOP_55_1                   |     -|  7.30|       12|    120.000|         6|        -|     2|        no|     -|   -|          -|          -|    -|
+    |     o VITIS_LOOP_57_2                  |     -|  7.30|        4|     40.000|         2|        -|     2|        no|     -|   -|          -|          -|    -|
+    |    o VITIS_LOOP_65_3                   |     -|  7.30|       14|    140.000|         7|        -|     2|        no|     -|   -|          -|          -|    -|
+    |     o VITIS_LOOP_68_4                  |     -|  7.30|        4|     40.000|         2|        -|     2|        no|     -|   -|          -|          -|    -|
+    |   + entry_proc                         |     -|  5.13|        0|      0.000|         -|        0|     -|        no|     -|   -|    2 (~0%)|   20 (~0%)|    -|
+    |   + writeDram                          |     -|  0.00|       75|    750.000|         -|       75|     -|        no|     -|   -|  265 (~0%)|  471 (~0%)|    -|
+    |    o Loop_Write_Dram                   |     -|  7.30|        4|     40.000|         2|        -|     2|        no|     -|   -|          -|          -|    -|
+    +----------------------------------------+------+------+---------+-----------+----------+---------+------+----------+------+----+-----------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* M_AXI
++-------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+
+| Interface   | Data Width | Address Width | Latency | Offset | Register | Max Widen | Max Read     | Max Write    | Num Read    | Num Write   |
+|             | (SW->HW)   |               |         |        |          | Bitwidth  | Burst Length | Burst Length | Outstanding | Outstanding |
++-------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+
+| m_axi_gmem0 | 8 -> 8     | 64            | 64      | slave  | 0        | 512       | 16           | 16           | 16          | 16          |
+| m_axi_gmem1 | 32 -> 64   | 64            | 64      | slave  | 0        | 512       | 16           | 16           | 16          | 16          |
+| m_axi_gmem2 | 8 -> 8     | 64            | 64      | slave  | 0        | 512       | 16           | 16           | 16          | 16          |
++-------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+
+
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 6             | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register   | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL       | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER       | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER     | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR     | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | input_r_1  | 0x10   | 32    | W      | Data signal of input_r           |                                                                      |
+| s_axi_control | input_r_2  | 0x14   | 32    | W      | Data signal of input_r           |                                                                      |
+| s_axi_control | weight_1   | 0x1c   | 32    | W      | Data signal of weight            |                                                                      |
+| s_axi_control | weight_2   | 0x20   | 32    | W      | Data signal of weight            |                                                                      |
+| s_axi_control | output_r_1 | 0x28   | 32    | W      | Data signal of output_r          |                                                                      |
+| s_axi_control | output_r_2 | 0x2c   | 32    | W      | Data signal of output_r          |                                                                      |
++---------------+------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| input    | in        | char*    |
+| weight   | in        | char*    |
+| output   | out       | int*     |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+---------------+-----------+----------+------------------------------------+
+| Argument | HW Interface  | HW Type   | HW Usage | HW Info                            |
++----------+---------------+-----------+----------+------------------------------------+
+| input    | m_axi_gmem0   | interface |          |                                    |
+| input    | s_axi_control | interface | offset   |                                    |
+| weight   | m_axi_gmem2   | interface |          |                                    |
+| weight   | s_axi_control | register  | offset   | name=weight_1 offset=0x1c range=32 |
+| weight   | s_axi_control | register  | offset   | name=weight_2 offset=0x20 range=32 |
+| output   | m_axi_gmem1   | interface |          |                                    |
+| output   | s_axi_control | interface | offset   |                                    |
++----------+---------------+-----------+----------+------------------------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+* Inferred Burst Summary
++--------------+------------------+-----------+--------+-------+------------------------+
+| HW Interface | Loop             | Direction | Length | Width | Location               |
++--------------+------------------+-----------+--------+-------+------------------------+
+| m_axi_gmem0  | VITIS_LOOP_5_1   | read      | 4      | 8     | dataflow_ex_5.cpp:5:21 |
+| m_axi_gmem2  | Loop_Weight_Dram | read      | 4      | 8     | dataflow_ex_5.cpp:19:5 |
++--------------+------------------+-----------+--------+-------+------------------------+
+
+* Inferred Bursts and Widening Missed
++--------------+----------+-----------------+-----------------------------------------------------------------------------------+------------+-------------------------+
+| HW Interface | Variable | Loop            | Problem                                                                           | Resolution | Location                |
++--------------+----------+-----------------+-----------------------------------------------------------------------------------+------------+-------------------------+
+| m_axi_gmem0  | input    | VITIS_LOOP_7_2  | Could not widen since type i8 size is greater than or equal to alignment 1(bytes) | 214-307    | dataflow_ex_5.cpp:7:25  |
+| m_axi_gmem2  | weight   | VITIS_LOOP_21_1 | Could not widen since type i8 size is greater than or equal to alignment 1(bytes) | 214-307    | dataflow_ex_5.cpp:21:26 |
++--------------+----------+-----------------+-----------------------------------------------------------------------------------+------------+-------------------------+
+
+    * Resolution URL: www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=XXX-YYY.html (replace XXX-YYY with column value)
+
+================================================================
+== Bind Op Report
+================================================================
++--------------------------------------+-----+--------+----------+------+--------+---------+
+| Name                                 | DSP | Pragma | Variable | Op   | Impl   | Latency |
++--------------------------------------+-----+--------+----------+------+--------+---------+
+| + dataflow                           | 0   |        |          |      |        |         |
+|  + dataflow_in_loop_VITIS_LOOP_112_1 | 0   |        |          |      |        |         |
+|    tmp_U                             | -   |        | tmp      | fifo | srl    | 0       |
+|   + readDram                         | 0   |        |          |      |        |         |
+|     add_ln5_fu_150_p2                | -   |        | add_ln5  | add  | fabric | 0       |
+|     add_ln10_fu_164_p2               | -   |        | add_ln10 | add  | fabric | 0       |
+|     add_ln7_fu_181_p2                | -   |        | add_ln7  | add  | fabric | 0       |
+|   + weightDram                       | 0   |        |          |      |        |         |
+|     add_ln19_fu_150_p2               | -   |        | add_ln19 | add  | fabric | 0       |
+|     add_ln24_fu_164_p2               | -   |        | add_ln24 | add  | fabric | 0       |
+|     add_ln21_fu_181_p2               | -   |        | add_ln21 | add  | fabric | 0       |
+|   + run_PE                           | 0   |        |          |      |        |         |
+|     add_ln55_fu_230_p2               | -   |        | add_ln55 | add  | fabric | 0       |
+|     add_ln59_fu_245_p2               | -   |        | add_ln59 | add  | fabric | 0       |
+|     add_ln61_fu_258_p2               | -   |        | add_ln61 | add  | fabric | 0       |
+|     add_ln57_fu_274_p2               | -   |        | add_ln57 | add  | fabric | 0       |
+|     mul_8s_8s_16_1_1_U13             | -   |        | mul_ln61 | mul  | auto   | 0       |
+|     add_ln65_fu_341_p2               | -   |        | add_ln65 | add  | fabric | 0       |
+|     add_ln70_fu_347_p2               | -   |        | add_ln70 | add  | fabric | 0       |
+|     add_ln68_fu_363_p2               | -   |        | add_ln68 | add  | fabric | 0       |
+|     sum_1_fu_377_p2                  | -   |        | sum_1    | add  | fabric | 0       |
+|     add_ln75_fu_387_p2               | -   |        | add_ln75 | add  | fabric | 0       |
+|   + writeDram                        | 0   |        |          |      |        |         |
+|     add_ln87_fu_153_p2               | -   |        | add_ln87 | add  | fabric | 0       |
++--------------------------------------+-----+--------+----------+------+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
++--------------------------------------+------+------+--------+---------------+---------+------+---------+
+| Name                                 | BRAM | URAM | Pragma | Variable      | Storage | Impl | Latency |
++--------------------------------------+------+------+--------+---------------+---------+------+---------+
+| + dataflow                           | 0    | 0    |        |               |         |      |         |
+|  + dataflow_in_loop_VITIS_LOOP_112_1 | 0    | 0    |        |               |         |      |         |
+|    output_r_c_U                      | -    | -    |        | output_r_c    | fifo    | srl  | 0       |
+|    input_buf_U                       | -    | -    |        | input_buf     | ram_1p  | auto | 1       |
+|    input_buf_1_U                     | -    | -    |        | input_buf_1   | ram_1p  | auto | 1       |
+|    weight_buf_U                      | -    | -    |        | weight_buf    | ram_1p  | auto | 1       |
+|    weight_buf_1_U                    | -    | -    |        | weight_buf_1  | ram_1p  | auto | 1       |
+|    output_buf_U                      | -    | -    |        | output_buf    | ram_1p  | auto | 1       |
+|   + run_PE                           | 0    | 0    |        |               |         |      |         |
+|     output_reg_U                     | -    | -    |        | output_reg    | ram_1p  | auto | 1       |
+|     output_temp_0_U                  | -    | -    |        | output_temp_0 | ram_1p  | auto | 1       |
++--------------------------------------+------+------+--------+---------------+---------+------+---------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++--------------------+--------------------------------------------------------------+-----------------------------------------------+
+| Type               | Options                                                      | Location                                      |
++--------------------+--------------------------------------------------------------+-----------------------------------------------+
+| interface          | m_axi port = input offset = slave bundle = gmem0 depth = 64  | dataflow_ex_5.cpp:98 in dataflow              |
+| interface          | m_axi port = output offset = slave bundle = gmem1 depth = 64 | dataflow_ex_5.cpp:99 in dataflow              |
+| interface          | m_axi port = weight offset = slave bundle = gmem2 depth = 64 | dataflow_ex_5.cpp:100 in dataflow             |
+| interface          | ap_ctrl_hs port=return                                       | dataflow_ex_5.cpp:101 in dataflow, return     |
+| expression_balance |                                                              | dataflow_ex_5.cpp:102 in dataflow             |
+| array_partition    | variable=input_buf dim=2 complete                            | dataflow_ex_5.cpp:109 in dataflow, input_buf  |
+| array_partition    | variable=weight_buf dim=2 complete                           | dataflow_ex_5.cpp:110 in dataflow, weight_buf |
+| dataflow           |                                                              | dataflow_ex_5.cpp:114 in dataflow             |
+| stable             | variable=input_buf                                           | dataflow_ex_5.cpp:115 in dataflow, input_buf  |
+| stable             | variable=weight_buf                                          | dataflow_ex_5.cpp:116 in dataflow, weight_buf |
+| stable             | variable=output_buf                                          | dataflow_ex_5.cpp:117 in dataflow, output_buf |
++--------------------+--------------------------------------------------------------+-----------------------------------------------+
+
+

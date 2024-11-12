@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.018 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;dataflow_ex_5.cpp&apos; ..." resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 214-113]" key="HLS 214-113" tag="DATAFLOW,VITIS_THROUGHPUT" content="Either use an argument of the function or declare the variable inside the dataflow loop body (dataflow_ex_5.cpp:121:18)" resolution="http://www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=214-113.html"/>
+	<Message severity="WARNING" prefix="[HLS 214-113]" key="HLS 214-113" tag="DATAFLOW,VITIS_THROUGHPUT" content="Either use an argument of the function or declare the variable inside the dataflow loop body (dataflow_ex_5.cpp:122:28)" resolution="http://www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=214-113.html"/>
+	<Message severity="WARNING" prefix="[HLS 214-113]" key="HLS 214-113" tag="DATAFLOW,VITIS_THROUGHPUT" content="Either use an argument of the function or declare the variable inside the dataflow loop body (dataflow_ex_5.cpp:125:16)" resolution="http://www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=214-113.html"/>
+	<Message severity="WARNING" prefix="[HLS 214-113]" key="HLS 214-113" tag="DATAFLOW,VITIS_THROUGHPUT" content="Either use an argument of the function or declare the variable inside the dataflow loop body (dataflow_ex_5.cpp:125:27)" resolution="http://www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=214-113.html"/>
+	<Message severity="WARNING" prefix="[HLS 214-113]" key="HLS 214-113" tag="DATAFLOW,VITIS_THROUGHPUT" content="Either use an argument of the function or declare the variable inside the dataflow loop body (dataflow_ex_5.cpp:125:39)" resolution="http://www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=214-113.html"/>
+	<Message severity="WARNING" prefix="[HLS 214-113]" key="HLS 214-113" tag="DATAFLOW,VITIS_THROUGHPUT" content="Either use an argument of the function or declare the variable inside the dataflow loop body (dataflow_ex_5.cpp:128:19)" resolution="http://www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=214-113.html"/>
+	<Message severity="WARNING" prefix="[HLS 200-471]" key="HLS 200-471" tag="DATAFLOW,VITIS_THROUGHPUT" content="Dataflow form checks found 6 issue(s) in file dataflow_ex_5.cpp" resolution="http://www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-471.html"/>
+	<Message severity="WARNING" prefix="[HLS 207-5292]" key="HLS 207-5292" tag="" content="unused parameter &apos;channel_i&apos; (dataflow_ex_5.cpp:82:55)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.824 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-777]" key="HLS 200-777" tag="" content="Using interface defaults for &apos;Vitis&apos; flow target." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 214-248]" key="HLS 214-248" tag="" content="Applying array_partition to &apos;input_buf&apos;: Complete partitioning on dimension 2. (dataflow_ex_5.cpp:104:7)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 214-248]" key="HLS 214-248" tag="" content="Applying array_partition to &apos;weight_buf&apos;: Complete partitioning on dimension 2. (dataflow_ex_5.cpp:105:10)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 214-115]" key="HLS 214-115" tag="VITIS_INTERFACE" content="Multiple burst reads of length 4 and bit width 8 in loop &apos;VITIS_LOOP_5_1&apos;(dataflow_ex_5.cpp:5:21) has been inferred on bundle &apos;gmem0&apos;. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (dataflow_ex_5.cpp:5:21)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 214-115]" key="HLS 214-115" tag="VITIS_INTERFACE" content="Multiple burst reads of length 4 and bit width 8 in loop &apos;Loop_Weight_Dram&apos;(dataflow_ex_5.cpp:19:5) has been inferred on bundle &apos;gmem2&apos;. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (dataflow_ex_5.cpp:19:5)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.336 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.004 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1467" tag="" content="Starting code transformations ..." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.129 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1472" tag="" content="Checking synthesizability ..." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.067 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[XFORM 203-102]" key="XFORM_AUTO_PARTITION_STATUS_121" tag="" content="Partitioning array &apos;output_temp&apos; (dataflow_ex_5.cpp:35) in dimension 2 automatically." resolution=""/>
+	<Message severity="INFO" prefix="[XFORM 203-721]" key="XFORM_LOOP_STREAM_STATUS_620" tag="DATAFLOW" content="Extract dataflow region from loop VITIS_LOOP_112_1 (dataflow_ex_5.cpp:115)  of function &apos;dataflow&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[XFORM 203-712]" key="XFORM_DATAFLOW_TRANSFORM_230" tag="DATAFLOW" content="Applying dataflow to function &apos;dataflow_in_loop_VITIS_LOOP_112_1&apos; (dataflow_ex_5.cpp:104:9), detected/extracted 5 process function(s): 
+	 &apos;entry_proc&apos;
+	 &apos;readDram&apos;
+	 &apos;weightDram&apos;
+	 &apos;run_PE&apos;
+	 &apos;writeDram&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.136 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-472]" key="HLS 200-472" tag="" content="Inferring partial write operation for &apos;output_reg&apos; (dataflow_ex_5.cpp:61:32)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-472]" key="HLS 200-472" tag="" content="Inferring partial write operation for &apos;output_temp[0]&apos; (dataflow_ex_5.cpp:75:28)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-472]" key="HLS 200-472" tag="" content="Inferring partial write operation for &apos;output_buf5&apos; (dataflow_ex_5.cpp:77:27)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-472]" key="HLS 200-472" tag="" content="Inferring partial write operation for &apos;input_buf&apos; (dataflow_ex_5.cpp:10:42)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-472]" key="HLS 200-472" tag="" content="Inferring partial write operation for &apos;weight_buf&apos; (dataflow_ex_5.cpp:24:43)" resolution=""/>
+	<Message severity="WARNING" prefix="[HLS 200-1449]" key="HLS 200-1449" tag="" content="Process dataflow_in_loop_VITIS_LOOP_112_1 has both a predecessor and reads an input from its caller (see the GUI dataflow viewer). This may lead to lower throughput. Consider copying this input via a predecessor process." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.222 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1317" tag="" content="Starting hardware synthesis ..." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1385" tag="" content="Synthesizing &apos;dataflow&apos; ..." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;entry_proc&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..." resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.347 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.147 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;readDram&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..." resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.189 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.249 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;weightDram&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..." resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.172 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.241 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;run_PE&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..." resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.157 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.142 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;writeDram&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..." resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.217 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.257 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;dataflow_in_loop_VITIS_LOOP_112_1&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..." resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.137 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.088 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;dataflow&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..." resolution=""/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.135 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..." resolution=""/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.093 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;entry_proc&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;entry_proc&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.131 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;readDram&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;readDram&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.124 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;weightDram&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;weightDram&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.217 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;run_PE&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mul_8s_8s_16_1_1&apos;: 1 instance(s)." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mux_22_8_1_1&apos;: 2 instance(s)." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;run_PE&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.282 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;writeDram&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;writeDram&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.278 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dataflow_in_loop_VITIS_LOOP_112_1&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWVALID&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWADDR&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWID&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWLEN&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWSIZE&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWBURST&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWLOCK&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWCACHE&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWPROT&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWQOS&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWREGION&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_AWUSER&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_WVALID&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_WDATA&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_WSTRB&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_WLAST&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_WID&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_WUSER&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem0_BREADY&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWVALID&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWADDR&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWID&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWLEN&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWSIZE&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWBURST&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWLOCK&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWCACHE&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWPROT&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWQOS&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWREGION&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_AWUSER&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_WVALID&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_WDATA&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_WSTRB&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_WLAST&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_WID&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_WUSER&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_BREADY&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARVALID&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARADDR&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARID&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARLEN&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARSIZE&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARBURST&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARLOCK&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARCACHE&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARPROT&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARQOS&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARREGION&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARUSER&apos; to 0." resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_739" tag="" content="Setting dangling out port &apos;dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_RREADY&apos; to 0." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dataflow_in_loop_VITIS_LOOP_112_1&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.06 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;dataflow&apos;" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------" resolution=""/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_918" tag="" content="Design contains AXI ports. Reset is fixed to synchronous and active low." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;dataflow/gmem0&apos; to &apos;m_axi&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;dataflow/gmem2&apos; to &apos;m_axi&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;dataflow/gmem1&apos; to &apos;m_axi&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;dataflow/input_r&apos; to &apos;s_axilite &amp; ap_none&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;dataflow/weight&apos; to &apos;s_axilite &amp; ap_none&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;dataflow/output_r&apos; to &apos;s_axilite &amp; ap_none&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on function &apos;dataflow&apos; to &apos;s_axilite &amp; ap_ctrl_hs&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_851" tag="" content="Bundling port &apos;input_r&apos;, &apos;weight&apos;, &apos;output_r&apos; and &apos;return&apos; to AXI-Lite port control." resolution=""/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;dataflow&apos;." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.564 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[RTMG 210-278]" key="RTMG_278_1790" tag="" content="Implementing memory &apos;dataflow_run_PE_output_reg_RAM_AUTO_1R1W_ram (RAM)&apos; using auto RAMs." resolution=""/>
+	<Message severity="INFO" prefix="[RTMG 210-278]" key="RTMG_278_1790" tag="" content="Implementing memory &apos;dataflow_run_PE_output_temp_0_RAM_AUTO_1R1W_ram (RAM)&apos; using auto RAMs." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-741]" key="HLS 200-741" tag="" content="Implementing PIPO dataflow_dataflow_in_loop_VITIS_LOOP_112_1_input_buf_RAM_AUTO_1R1W_memcore using a single memory for all blocks" resolution=""/>
+	<Message severity="INFO" prefix="[RTMG 210-278]" key="RTMG_278_1790" tag="" content="Implementing memory &apos;dataflow_dataflow_in_loop_VITIS_LOOP_112_1_input_buf_RAM_AUTO_1R1W_memcore_ram (RAM)&apos; using auto RAMs." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-741]" key="HLS 200-741" tag="" content="Implementing PIPO dataflow_dataflow_in_loop_VITIS_LOOP_112_1_output_buf_RAM_AUTO_1R1W_memcore using a single memory for all blocks" resolution=""/>
+	<Message severity="INFO" prefix="[RTMG 210-278]" key="RTMG_278_1790" tag="" content="Implementing memory &apos;dataflow_dataflow_in_loop_VITIS_LOOP_112_1_output_buf_RAM_AUTO_1R1W_memcore_ram (RAM)&apos; using auto RAMs." resolution=""/>
+	<Message severity="INFO" prefix="[RTMG 210-285]" key="RTMG_285_1799" tag="" content="Implementing FIFO &apos;output_r_c_U(dataflow_fifo_w64_d4_S)&apos; using Shift Registers." resolution=""/>
+	<Message severity="INFO" prefix="[RTMG 210-285]" key="RTMG_285_1799" tag="" content="Implementing FIFO &apos;tmp_U(dataflow_fifo_w2_d2_S)&apos; using Shift Registers." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.382 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-1603]" key="HLS 200-1603" tag="VITIS_INTERFACE" content="Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.504 seconds; current allocated memory: 1.465 GB." resolution=""/>
+	<Message severity="INFO" prefix="[VHDL 208-304]" key="VHDL_304_1066" tag="" content="Generating VHDL RTL for dataflow." resolution=""/>
+	<Message severity="INFO" prefix="[VLOG 209-307]" key="VLOG_307_1067" tag="" content="Generating Verilog RTL for dataflow." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-790]" key="HLS 200-790" tag="LOOP,VITIS_KERNEL" content="**** Loop Constraint Status: All loop constraints were satisfied." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-789]" key="HLS 200-789" tag="THROUGHPUT,VITIS_KERNEL" content="**** Estimated Fmax: 136.99 MHz" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 14.45 seconds; current allocated memory: 0.000 MB." resolution=""/>
+</Messages>

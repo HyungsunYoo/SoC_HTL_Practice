@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov 12 12:32:23 2024
+# Process ID: 31464
+# Current directory: C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip/vivado.log
+# Journal file: C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip\vivado.jou
+# Running On: HyungsunYoo, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 68342 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

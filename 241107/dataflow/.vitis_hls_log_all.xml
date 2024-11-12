@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.916+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_RREADY' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.595+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARUSER' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.577+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARREGION' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.559+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARQOS' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.543+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARPROT' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.528+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARCACHE' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.502+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARLOCK' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.471+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARBURST' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.460+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARSIZE' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.445+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARLEN' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.434+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARID' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.416+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARADDR' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.402+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem1_ARVALID' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.394+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_BREADY' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.384+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_WUSER' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.374+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'dataflow_in_loop_VITIS_LOOP_112_1/m_axi_gmem2_WID' to 0." projectName="dataflow" solutionName="solution1" date="2024-11-12T11:52:55.365+0900" type="Warning"/>
+      </synLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

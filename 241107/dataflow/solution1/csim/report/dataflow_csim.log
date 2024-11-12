@@ -1,0 +1,42 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../dataflow_tb.cpp in debug mode
+   Compiling ../../../../dataflow_ex_5.cpp in debug mode
+   Generating csim.exe
+H=2, W=2, C=4
+Test Started
+HW: read input[0] = 1,  channel_i=0, hi=0, wi=0
+HW: read input[1] = 2,  channel_i=0, hi=0, wi=1
+HW: read input[2] = 3,  channel_i=0, hi=1, wi=0
+HW: read input[3] = 4,  channel_i=0, hi=1, wi=1
+HW: read weight[0] = 1,  channel_i=0, ki=0, ci=0
+HW: read weight[1] = 1,  channel_i=0, ki=0, ci=1
+HW: read weight[2] = 1,  channel_i=0, ki=1, ci=0
+HW: read weight[3] = 1,  channel_i=0, ki=1, ci=1
+HW: read input[4] = 1,  channel_i=1, hi=0, wi=0
+HW: read input[5] = 2,  channel_i=1, hi=0, wi=1
+HW: read input[6] = 3,  channel_i=1, hi=1, wi=0
+HW: read input[7] = 4,  channel_i=1, hi=1, wi=1
+HW: read weight[4] = 1,  channel_i=1, ki=0, ci=0
+HW: read weight[5] = 1,  channel_i=1, ki=0, ci=1
+HW: read weight[6] = 1,  channel_i=1, ki=1, ci=0
+HW: read weight[7] = 1,  channel_i=1, ki=1, ci=1
+HW: read input[8] = 1,  channel_i=2, hi=0, wi=0
+HW: read input[9] = 2,  channel_i=2, hi=0, wi=1
+HW: read input[10] = 3,  channel_i=2, hi=1, wi=0
+HW: read input[11] = 4,  channel_i=2, hi=1, wi=1
+HW: read weight[8] = 1,  channel_i=2, ki=0, ci=0
+HW: read weight[9] = 1,  channel_i=2, ki=0, ci=1
+HW: read weight[10] = 1,  channel_i=2, ki=1, ci=0
+HW: read weight[11] = 1,  channel_i=2, ki=1, ci=1
+HW: read input[12] = 1,  channel_i=3, hi=0, wi=0
+HW: read input[13] = 2,  channel_i=3, hi=0, wi=1
+HW: read input[14] = 3,  channel_i=3, hi=1, wi=0
+HW: read input[15] = 4,  channel_i=3, hi=1, wi=1
+HW: read weight[12] = 1,  channel_i=3, ki=0, ci=0
+HW: read weight[13] = 1,  channel_i=3, ki=0, ci=1
+HW: read weight[14] = 1,  channel_i=3, ki=1, ci=0
+HW: read weight[15] = 1,  channel_i=3, ki=1, ci=1
+Test Completed
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

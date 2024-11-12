@@ -1,0 +1,54 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-113" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:121:18" msg_body="Either use an argument of the function or declare the variable inside the dataflow loop body"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-113" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:122:28" msg_body="Either use an argument of the function or declare the variable inside the dataflow loop body"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-113" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:125:16" msg_body="Either use an argument of the function or declare the variable inside the dataflow loop body"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-113" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:125:27" msg_body="Either use an argument of the function or declare the variable inside the dataflow loop body"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-113" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:125:39" msg_body="Either use an argument of the function or declare the variable inside the dataflow loop body"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-113" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:128:19" msg_body="Either use an argument of the function or declare the variable inside the dataflow loop body"/>
+    <msg msg_groups="" msg_id="207-5292" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:82:55" msg_body="unused parameter 'channel_i'">
+        <args ClangWarningOption="unused-parameter"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/csynth.tcl:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=dataflow" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:98:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port = input offset = slave bundle = gmem0 depth = 64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:99:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port = output offset = slave bundle = gmem1 depth = 64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:100:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port = weight offset = slave bundle = gmem2 depth = 64" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:101:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_hs port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:102:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaType="expression_balance" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:109:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=input_buf dim=2 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:110:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=weight_buf dim=2 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:114:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:115:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=input_buf" ARG_PragmaType="stable" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:116:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=weight_buf" ARG_PragmaType="stable" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="dataflow_ex_5.cpp:117:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="dataflow" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=output_buf" ARG_PragmaType="stable" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="dataflow_ex_5.cpp:104:7" msg_body="Applying array_partition to 'input_buf': Complete partitioning on dimension 2.">
+        <args Dim="2" Mode="Complete" UOName="input_buf"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="dataflow_ex_5.cpp:105:10" msg_body="Applying array_partition to 'weight_buf': Complete partitioning on dimension 2.">
+        <args Dim="2" Mode="Complete" UOName="weight_buf"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

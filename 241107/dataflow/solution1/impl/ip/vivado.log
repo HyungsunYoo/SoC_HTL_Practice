@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov 12 12:32:23 2024
+# Process ID: 31464
+# Current directory: C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip/vivado.log
+# Journal file: C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip\vivado.jou
+# Running On: HyungsunYoo, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 68342 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+Running package_xo -xo_path C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/export.xo -kernel_name dataflow -kernel_xml C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip/../kernel/kernel.xml -kernel_files C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow_ex_5.cpp -ip_directory C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip/ip_unzip_dir -design_xml C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/.autopilot/db/dataflow.design.xml -debug_directory C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/.debug -hls_directory C:/Users/gudtj/OneDrive/Desktop/24-2/SoC/HTL_Practice/241107/dataflow/solution1/impl/ip/hls_files
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 12 12:32:32 2024...

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="dataflow_ex_5.cpp" path="C:\Users\gudtj\OneDrive\Desktop\24-2\SoC\HTL_Practice\241107\dataflow_ex_5.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="dataflow_tb.cpp" path="C:\Users\gudtj\OneDrive\Desktop\24-2\SoC\HTL_Practice\241107\dataflow_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
